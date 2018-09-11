@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */; };
 		3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EC2214660A400F7A034 /* AppDelegate.swift */; };
 		3FF33EC5214660A400F7A034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EC4214660A400F7A034 /* ViewController.swift */; };
 		3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33EC6214660A400F7A034 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */; };
 		3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */; };
 		3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */; };
+		A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */; };
+		E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.release.xcconfig"; sourceTree = "<group>"; };
 		3FF33EBF214660A300F7A034 /* lincenseplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lincenseplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF33EC2214660A400F7A034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF33EC4214660A400F7A034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lincenseplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lincenseplateUITests.swift; sourceTree = "<group>"; };
 		3FF33EE4214660A500F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBB2C240DFCAAD1076B8D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */,
+				2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */,
+				EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */,
+				984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */,
+				F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */,
+				A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FF33EB6214660A300F7A034 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				3FF33ED6214660A400F7A034 /* lincenseplateTests */,
 				3FF33EE1214660A400F7A034 /* lincenseplateUITests */,
 				3FF33EC0214660A300F7A034 /* Products */,
+				2DBB2C240DFCAAD1076B8D81 /* Pods */,
+				BBE2A1B678A599AC8F6B0812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = lincenseplateUITests;
 			sourceTree = "<group>";
 		};
+		BBE2A1B678A599AC8F6B0812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */,
+				F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */,
+				BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FF33EE7214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplate" */;
 			buildPhases = (
+				BDEB11536FFB57C60286BA22 /* [CP] Check Pods Manifest.lock */,
 				3FF33EBB214660A300F7A034 /* Sources */,
 				3FF33EBC214660A300F7A034 /* Frameworks */,
 				3FF33EBD214660A300F7A034 /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FF33EEA214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateTests" */;
 			buildPhases = (
+				1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */,
 				3FF33ECF214660A400F7A034 /* Sources */,
 				3FF33ED0214660A400F7A034 /* Frameworks */,
 				3FF33ED1214660A400F7A034 /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FF33EED214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateUITests" */;
 			buildPhases = (
+				A6CBCD4F4ED2433AACB44D38 /* [CP] Check Pods Manifest.lock */,
 				3FF33EDA214660A400F7A034 /* Sources */,
 				3FF33EDB214660A400F7A034 /* Frameworks */,
 				3FF33EDC214660A400F7A034 /* Resources */,
@@ -253,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lincenseplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CBCD4F4ED2433AACB44D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lincenseplateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDEB11536FFB57C60286BA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lincenseplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FF33EBB214660A300F7A034 /* Sources */ = {
@@ -424,6 +536,7 @@
 		};
 		3FF33EE8214660A500F7A034 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +551,7 @@
 		};
 		3FF33EE9214660A500F7A034 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +566,7 @@
 		};
 		3FF33EEB214660A500F7A034 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +583,7 @@
 		};
 		3FF33EEC214660A500F7A034 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +600,7 @@
 		};
 		3FF33EEE214660A500F7A034 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +616,7 @@
 		};
 		3FF33EEF214660A500F7A034 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

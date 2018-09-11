@@ -1,0 +1,6 @@
+framework module Pods_lincenseplateTests {
+  umbrella header "Pods-lincenseplateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -189,7 +189,7 @@
         <!--View Controller-->
         <scene sceneID="xDW-U0-OOe">
             <objects>
-                <viewController id="I0e-k5-HEI" sceneMemberID="viewController">
+                <viewController id="I0e-k5-HEI" customClass="ViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qaz-jp-kX8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,6 +255,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="qmi-oH-OmB"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0r4-Hg-F67">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </tabBar>
                     <connections>
@@ -288,7 +289,6 @@
         <!--กรอกทะเบียนรถ-->
         <scene sceneID="7YD-9s-LdA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PiM-I4-Hqu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f4R-uS-O8g" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="กรอกทะเบียนรถ" id="U6b-MB-XTI"/>
                     <toolbarItems/>
@@ -301,6 +301,7 @@
                         <segue destination="cgq-xn-iom" kind="relationship" relationship="rootViewController" id="k4E-s4-RDv"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PiM-I4-Hqu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1156" y="904"/>
         </scene>

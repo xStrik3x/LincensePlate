@@ -120,7 +120,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHY-pK-R1r">
-                                <rect key="frame" x="212" y="230" width="42" height="21"/>
+                                <rect key="frame" x="212" y="230" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -190,10 +190,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1jU-Gm-eH3"/>
                     </view>
+                    <connections>
+                        <outlet property="lbldepart" destination="qYS-vQ-H3J" id="1k7-6x-W29"/>
+                        <outlet property="lblfname" destination="Sh8-bi-uNM" id="cVi-nn-MrW"/>
+                        <outlet property="lbllname" destination="u4o-Gf-UFH" id="oZy-qp-3qh"/>
+                        <outlet property="lblno" destination="PHY-pK-R1r" id="4cj-sq-b37"/>
+                        <outlet property="lblnumber" destination="D2u-zh-hsh" id="lfR-Fc-gvV"/>
+                        <outlet property="lblstate" destination="hNB-EK-GHn" id="09U-cF-EaF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUv-A8-Nnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1794" y="896"/>
+            <point key="canvasLocation" x="1792.8" y="895.50224887556226"/>
         </scene>
         <!--Item-->
         <scene sceneID="Kjw-xW-zpa">

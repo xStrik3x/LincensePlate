@@ -7,25 +7,44 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseFirestore
 
 class RetrieveViewController: UIViewController {
 
+    @IBOutlet weak var lblno: UILabel!
+    @IBOutlet weak var lblstate: UILabel!
+    @IBOutlet weak var lblfname: UILabel!
+    @IBOutlet weak var lbllname: UILabel!
+    @IBOutlet weak var lblnumber: UILabel!
+    @IBOutlet weak var lbldepart: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        
         let docRef = Firestore.firestore().collection("รถยนต์").document("9กฐ9345")
-        docRef.getDocument{(document, error) in
-            if let depart = document.flatMap({
-                $0.data().flatMap({ (data) in
-                    return Depart(dictionary: data)
-                })
-            }) {
-                print("Depart: \(depart)")
-            }else{
-                print("Docu,emt deos not exist")
+        
+        docRef.getDocument(source: .cache) { (document, err) in
+            if let document = document {
+                //get data
+                let no = document.get("no")
+                let state = document.get("state")
+                let fname = document.get("fname")
+                let lname = document.get("lname")
+                let number = document.get("number")
+                let depart = document.get("depart")
+                //show out on lbl
+                self.lblno.text = no as! String
+                self.lblstate.text = state as! String
+                self.lblfname.text = fname as! String
+                self.lbllname.text = lname as! String
+                self.lblnumber.text = number as! String
+                self.lbldepart.text = depart as! String
+            } else {
+                print("Document does not exist in cache")
             }
         }
         

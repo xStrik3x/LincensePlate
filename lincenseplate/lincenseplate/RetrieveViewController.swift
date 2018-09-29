@@ -17,17 +17,7 @@ class RetrieveViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let docRef = Firestore.firestore().collection("รถยนต์").document("9กฐ9345")
-        docRef.getDocument{(document, error) in
-            if let depart = document.flatMap({
-                $0.data().flatMap({ (data) in
-                    return Depart(dictionary: data)
-                })
-            }) {
-                print("Depart: \(depart)")
-            }else{
-                print("Docu,emt deos not exist")
-            }
-        }
+        
         
     }
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cgq-xn-iom">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I0e-k5-HEI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--กรอก-->
         <scene sceneID="4Lg-um-4yG">
             <objects>
-                <viewController id="cgq-xn-iom" customClass="FillViewController" customModule="lincenseplate" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pdView" id="cgq-xn-iom" customClass="FillViewController" customModule="lincenseplate" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dij-Jp-GnJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,7 +265,7 @@
         <!--View Controller-->
         <scene sceneID="xDW-U0-OOe">
             <objects>
-                <viewController id="I0e-k5-HEI" sceneMemberID="viewController">
+                <viewController id="I0e-k5-HEI" customClass="ViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qaz-jp-kX8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -328,7 +328,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO6-vd-0eO">
-                                <rect key="frame" x="118" y="436" width="139" height="51"/>
+                                <rect key="frame" x="112" y="430" width="139" height="51"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -340,13 +340,17 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="EkE-Me-fab" kind="modal" id="ebK-A3-b3j"/>
+                                    <action selector="login:" destination="I0e-k5-HEI" eventType="touchUpInside" id="44B-zp-m78"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LbN-Hs-10J"/>
                     </view>
+                    <connections>
+                        <outlet property="emailtext" destination="4vC-ag-yl8" id="BFf-Vx-wRG"/>
+                        <outlet property="passtext" destination="ij9-Lu-vGM" id="cp1-rW-rLK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TNF-B5-pcV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -381,7 +385,6 @@
         <image name="white" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Uxk-gd-3WB"/>
         <segue reference="KHq-ae-z3B"/>
     </inferredMetricsTieBreakers>
 </document>

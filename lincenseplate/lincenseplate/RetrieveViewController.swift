@@ -24,12 +24,14 @@ class RetrieveViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        
+        //firestore path
         let docRef = Firestore.firestore().collection("รถยนต์").document("9กฐ9345")
         
-        docRef.getDocument(source: .cache) { (document, err) in
+        
+        //get data
+        docRef.getDocument { (document, err) in
             if let document = document {
-                //get data
+    
                 let no = document.get("no")
                 let state = document.get("state")
                 let fname = document.get("fname")
@@ -37,14 +39,14 @@ class RetrieveViewController: UIViewController {
                 let number = document.get("number")
                 let depart = document.get("depart")
                 //show out on lbl
-                self.lblno.text = no as! String
-                self.lblstate.text = state as! String
-                self.lblfname.text = fname as! String
-                self.lbllname.text = lname as! String
-                self.lblnumber.text = number as! String
-                self.lbldepart.text = depart as! String
+                self.lblno.text = no as? String
+                self.lblstate.text = state as? String
+                self.lblfname.text = fname as? String
+                self.lbllname.text = lname as? String
+                self.lblnumber.text = number as? String
+                self.lbldepart.text = depart as? String
             } else {
-                print("Document does not exist in cache")
+                print("Document does not exist")
             }
         }
         

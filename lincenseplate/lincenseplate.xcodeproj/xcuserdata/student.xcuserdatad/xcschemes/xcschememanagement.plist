@@ -7,7 +7,25 @@
 		<key>lincenseplate.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3FF33EBE214660A300F7A034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FF33ED2214660A400F7A034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FF33EDD214660A400F7A034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -1,14 +1,14 @@
 //
-//  TabBerController.swift
+//  TabController.swift
 //  lincenseplate
 //
-//  Created by student on 10/2/18.
+//  Created by student on 10/1/18.
 //  Copyright © 2018 student. All rights reserved.
 //
 
 import UIKit
 
-class TabBerController: UITabBarController {
+class TabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

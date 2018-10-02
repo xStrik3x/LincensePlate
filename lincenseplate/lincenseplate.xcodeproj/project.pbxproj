@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */; };
+		3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68DA3321621ADA0020EEE9 /* TabController.swift */; };
 		3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75BCD4215F554400DAF13B /* FillViewController.swift */; };
 		3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */; };
 		3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE69488215F649300510C89 /* RetrieveViewController.swift */; };
@@ -19,7 +20,6 @@
 		3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */; };
 		3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */; };
 		A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */; };
-		C44686512148E997003E529A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44686502148E997003E529A /* ViewController2.swift */; };
 		E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.release.xcconfig"; sourceTree = "<group>"; };
+		3F68DA3321621ADA0020EEE9 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		3F75BCD4215F554400DAF13B /* FillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillViewController.swift; sourceTree = "<group>"; };
 		3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FE69488215F649300510C89 /* RetrieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44686502148E997003E529A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,12 +139,12 @@
 				3FF33EC2214660A400F7A034 /* AppDelegate.swift */,
 				3FF33EC4214660A400F7A034 /* ViewController.swift */,
 				3FF33EC6214660A400F7A034 /* Main.storyboard */,
-				C44686502148E997003E529A /* ViewController2.swift */,
 				3FF33EC9214660A400F7A034 /* Assets.xcassets */,
 				3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */,
 				3FF33ECE214660A400F7A034 /* Info.plist */,
 				3F75BCD4215F554400DAF13B /* FillViewController.swift */,
 				3FE69488215F649300510C89 /* RetrieveViewController.swift */,
+				3F68DA3321621ADA0020EEE9 /* TabController.swift */,
 			);
 			path = lincenseplate;
 			sourceTree = "<group>";
@@ -317,8 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
@@ -334,8 +332,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
@@ -415,11 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */,
 				3FF33EC5214660A400F7A034 /* ViewController.swift in Sources */,
 				3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */,
 				3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */,
 				3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */,
-				C44686512148E997003E529A /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

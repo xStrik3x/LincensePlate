@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cgq-xn-iom">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I0e-k5-HEI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillin" translatesAutoresizingMaskIntoConstraints="NO" id="i3E-3S-sy6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fillin" translatesAutoresizingMaskIntoConstraints="NO" id="i3E-3S-sy6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UsX-Ul-EjW">
                                 <rect key="frame" x="65" y="289" width="246" height="40"/>
@@ -50,13 +49,25 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="fillBtn:" destination="cgq-xn-iom" eventType="touchUpInside" id="yOj-4S-whU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i3E-3S-sy6" firstAttribute="top" secondItem="dij-Jp-GnJ" secondAttribute="top" id="787-t8-U2F"/>
+                            <constraint firstAttribute="bottom" secondItem="i3E-3S-sy6" secondAttribute="bottom" id="H0Q-Vw-2sj"/>
+                            <constraint firstItem="i3E-3S-sy6" firstAttribute="leading" secondItem="R9X-Fv-Z33" secondAttribute="leading" id="Urs-Jd-oDt"/>
+                            <constraint firstItem="i3E-3S-sy6" firstAttribute="trailing" secondItem="R9X-Fv-Z33" secondAttribute="trailing" id="upe-k8-cEe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="R9X-Fv-Z33"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="9We-f3-MAK"/>
                     <navigationItem key="navigationItem" title="กรอก" id="DOY-FH-GqZ"/>
+                    <connections>
+                        <outlet property="fillTField" destination="UsX-Ul-EjW" id="GnX-nl-qea"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OU9-x1-IJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,7 +76,7 @@
         <!--Retrieve View Controller-->
         <scene sceneID="Ddz-zO-dON">
             <objects>
-                <viewController id="gZq-fb-Hsg" customClass="RetrieveViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="retri" id="gZq-fb-Hsg" customClass="RetrieveViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8uf-a9-Zkm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,14 +214,13 @@
         <!--Item-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
-                <viewController id="4Pb-il-VFr" customClass="ViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Pb-il-VFr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ly0-qB-Oz9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sacan1" translatesAutoresizingMaskIntoConstraints="NO" id="kcf-P4-R9U">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sacan1" translatesAutoresizingMaskIntoConstraints="NO" id="kcf-P4-R9U">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สแกนทะเบียนรถ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
                                 <rect key="frame" x="86" y="135" width="203" height="36"/>
@@ -250,6 +260,12 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="kcf-P4-R9U" secondAttribute="bottom" id="962-da-BIX"/>
+                            <constraint firstItem="kcf-P4-R9U" firstAttribute="top" secondItem="ly0-qB-Oz9" secondAttribute="top" id="Y2T-MU-SF2"/>
+                            <constraint firstItem="kcf-P4-R9U" firstAttribute="leading" secondItem="YwA-Yp-2Te" secondAttribute="leading" id="gCH-RN-36r"/>
+                            <constraint firstItem="kcf-P4-R9U" firstAttribute="trailing" secondItem="YwA-Yp-2Te" secondAttribute="trailing" id="mmb-56-dw6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YwA-Yp-2Te"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="amk-0r-ZNk"/>
@@ -267,41 +283,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6e319478a0256a787d736b31ed28ed02" translatesAutoresizingMaskIntoConstraints="NO" id="9Ni-AF-ZLT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6e319478a0256a787d736b31ed28ed02" translatesAutoresizingMaskIntoConstraints="NO" id="9Ni-AF-ZLT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xeQ-A0-f96">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeQ-A0-f96">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="mg1-Px-u8F">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mg1-Px-u8F">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOK-RG-GeN">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="DJG-T9-2Kb">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="7WP-nJ-aG2">
-                                                        <rect key="frame" x="145" y="95" width="85" height="68"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </view>
-                                            <vibrancyEffect>
-                                                <blurEffect style="light"/>
-                                            </vibrancyEffect>
-                                        </visualEffectView>
-                                    </subviews>
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="kPG-ip-4gC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="kPG-ip-4gC">
                                 <rect key="frame" x="53" y="178" width="269" height="363"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ชื่อผู้ใช้" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4vC-ag-yl8">
                                 <rect key="frame" x="87" y="300" width="201" height="30"/>
@@ -315,7 +309,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เข้าสู่ระบบ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSa-PJ-BFW">
                                 <rect key="frame" x="124" y="214" width="127" height="44"/>
@@ -342,6 +336,20 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LbN-Hs-10J" firstAttribute="trailing" secondItem="kPG-ip-4gC" secondAttribute="trailing" constant="53" id="8Rs-wh-iVb"/>
+                            <constraint firstItem="xeQ-A0-f96" firstAttribute="leading" secondItem="LbN-Hs-10J" secondAttribute="leading" id="8Rv-at-xqN"/>
+                            <constraint firstItem="kPG-ip-4gC" firstAttribute="top" secondItem="LbN-Hs-10J" secondAttribute="top" constant="158" id="A72-WB-5bK"/>
+                            <constraint firstItem="9Ni-AF-ZLT" firstAttribute="top" secondItem="Qaz-jp-kX8" secondAttribute="top" id="FMy-o4-oNN"/>
+                            <constraint firstItem="9Ni-AF-ZLT" firstAttribute="leading" secondItem="LbN-Hs-10J" secondAttribute="leading" id="Kh5-sl-aZK"/>
+                            <constraint firstItem="9Ni-AF-ZLT" firstAttribute="bottom" secondItem="LbN-Hs-10J" secondAttribute="bottom" id="NLW-ms-CRE"/>
+                            <constraint firstItem="kPG-ip-4gC" firstAttribute="leading" secondItem="LbN-Hs-10J" secondAttribute="leading" constant="53" id="agL-fb-ix4"/>
+                            <constraint firstItem="9Ni-AF-ZLT" firstAttribute="trailing" secondItem="LbN-Hs-10J" secondAttribute="trailing" id="fRg-4B-nQG"/>
+                            <constraint firstItem="xeQ-A0-f96" firstAttribute="bottom" secondItem="LbN-Hs-10J" secondAttribute="bottom" id="j0x-iU-c6C"/>
+                            <constraint firstItem="xeQ-A0-f96" firstAttribute="top" secondItem="Qaz-jp-kX8" secondAttribute="top" id="uVs-83-CIc"/>
+                            <constraint firstItem="xeQ-A0-f96" firstAttribute="trailing" secondItem="LbN-Hs-10J" secondAttribute="trailing" id="ucQ-8d-zXI"/>
+                            <constraint firstItem="LbN-Hs-10J" firstAttribute="bottom" secondItem="kPG-ip-4gC" secondAttribute="bottom" constant="126" id="yBO-g2-lWJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LbN-Hs-10J"/>
                     </view>
                     <connections>
@@ -353,10 +361,10 @@
             </objects>
             <point key="canvasLocation" x="-706.39999999999998" y="133.5832083958021"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Controller-->
         <scene sceneID="2bT-31-uNR">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EkE-Me-fab" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabCon" automaticallyAdjustsScrollViewInsets="NO" id="EkE-Me-fab" customClass="TabController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="qmi-oH-OmB"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0r4-Hg-F67">
@@ -377,11 +385,10 @@
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
         <image name="data" width="375" height="667"/>
         <image name="fillin" width="375" height="667"/>
-        <image name="login" width="512" height="512"/>
         <image name="sacan1" width="375" height="667"/>
         <image name="white" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Uxk-gd-3WB"/>
+        <segue reference="LI9-UD-Q3G"/>
     </inferredMetricsTieBreakers>
 </document>

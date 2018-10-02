@@ -19,13 +19,15 @@ class RetrieveViewController: UIViewController {
     @IBOutlet weak var lblnumber: UILabel!
     @IBOutlet weak var lbldepart: UILabel!
     
+    var data = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
         //firestore path
-        let docRef = Firestore.firestore().collection("รถยนต์").document("9กฐ9345")
+        let docRef = Firestore.firestore().collection("รถยนต์").document(data)
         
         
         //get data

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */; };
+		3F0FB6B62163525B00CF318E /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FB6B52163525B00CF318E /* ScanViewController.swift */; };
 		3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68DA3321621ADA0020EEE9 /* TabController.swift */; };
 		3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75BCD4215F554400DAF13B /* FillViewController.swift */; };
 		3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.release.xcconfig"; sourceTree = "<group>"; };
+		3F0FB6B52163525B00CF318E /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		3F68DA3321621ADA0020EEE9 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		3F75BCD4215F554400DAF13B /* FillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillViewController.swift; sourceTree = "<group>"; };
 		3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				3F75BCD4215F554400DAF13B /* FillViewController.swift */,
 				3FE69488215F649300510C89 /* RetrieveViewController.swift */,
 				3F68DA3321621ADA0020EEE9 /* TabController.swift */,
+				3F0FB6B52163525B00CF318E /* ScanViewController.swift */,
 			);
 			path = lincenseplate;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */,
 				3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */,
 				3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */,
+				3F0FB6B62163525B00CF318E /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

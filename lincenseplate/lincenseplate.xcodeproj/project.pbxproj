@@ -20,6 +20,18 @@
 		3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */; };
 		3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */; };
 		A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */; };
+		C4FC1FC321649F2500219AA6 /* FC Lamoon Regular ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */; };
+		C4FC1FC421649F2500219AA6 /* FC Lamoon Bold ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */; };
+		C4FC1FC521649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */; };
+		C4FC1FC621649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */; };
+		C4FC1FC721649F2500219AA6 /* FC Lamoon Regular ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */; };
+		C4FC1FC821649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */; };
+		C4FC1FC921649F2500219AA6 /* FC Lamoon Light ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */; };
+		C4FC1FCA21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */; };
+		C4FC1FCB21649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */; };
+		C4FC1FCC21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */; };
+		C4FC1FCD21649F2500219AA6 /* FC Lamoon Light ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */; };
+		C4FC1FCE21649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */; };
 		E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +75,18 @@
 		984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold Italic ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light Italic ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold Italic ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular Italic ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light Italic ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular Italic ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold ver 1.00.ttf"; sourceTree = "<group>"; };
 		EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +137,7 @@
 		3FF33EB6214660A300F7A034 = {
 			isa = PBXGroup;
 			children = (
+				C4FC1FB621649ED000219AA6 /* New Group */,
 				3FF33EC1214660A300F7A034 /* lincenseplate */,
 				3FF33ED6214660A400F7A034 /* lincenseplateTests */,
 				3FF33EE1214660A400F7A034 /* lincenseplateUITests */,
@@ -175,6 +200,25 @@
 				BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FC1FB621649ED000219AA6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */,
+				C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */,
+				C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */,
+				C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */,
+				C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */,
+				C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */,
+				C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */,
+				C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */,
+				C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */,
+				C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */,
+				C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */,
+				C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +332,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FC1FC621649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.ttf in Resources */,
 				3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */,
+				C4FC1FC721649F2500219AA6 /* FC Lamoon Regular ver 1.00.otf in Resources */,
+				C4FC1FCE21649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf in Resources */,
+				C4FC1FC821649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.otf in Resources */,
+				C4FC1FCA21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf in Resources */,
+				C4FC1FCC21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.otf in Resources */,
+				C4FC1FC321649F2500219AA6 /* FC Lamoon Regular ver 1.00.ttf in Resources */,
+				C4FC1FC421649F2500219AA6 /* FC Lamoon Bold ver 1.00.otf in Resources */,
+				C4FC1FCB21649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.otf in Resources */,
+				C4FC1FC921649F2500219AA6 /* FC Lamoon Light ver 1.00.ttf in Resources */,
 				3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */,
+				C4FC1FCD21649F2500219AA6 /* FC Lamoon Light ver 1.00.otf in Resources */,
 				3FF33ECA214660A400F7A034 /* Assets.xcassets in Resources */,
 				3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */,
+				C4FC1FC521649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -236,7 +236,7 @@
         <!--Item-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
-                <viewController id="4Pb-il-VFr" sceneMemberID="viewController">
+                <viewController id="4Pb-il-VFr" customClass="ScanViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ly0-qB-Oz9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

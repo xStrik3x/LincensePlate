@@ -78,6 +78,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (5.3.0):
     - GoogleUtilities/Logger
+  - GPUImage (0.1.7)
   - gRPC (1.14.0):
     - gRPC-RxLibrary (= 1.14.0)
     - gRPC/Main (= 1.14.0)
@@ -115,11 +116,14 @@ PODS:
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
   - Protobuf (3.6.1)
+  - SwiftOCR (1.1):
+    - GPUImage
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
+  - SwiftOCR
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -133,6 +137,7 @@ SPEC REPOS:
     - FirebaseInstanceID
     - GoogleAppMeasurement
     - GoogleUtilities
+    - GPUImage
     - gRPC
     - "gRPC-C++"
     - gRPC-Core
@@ -142,6 +147,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - Protobuf
+    - SwiftOCR
 
 SPEC CHECKSUMS:
   BoringSSL: e10f92a27043805c01071fe815a5cd98ae8212e7
@@ -154,6 +160,7 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
   GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
   GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   gRPC: 9d4c549f37c7cef22478634bac7a0405b6e3dbfb
   "gRPC-C++": ee0b01db3122f0b6c2be28b5b11039f62fa15fe6
   gRPC-Core: f4836515817c0eb479aeeb9cc27c91c4ba62a9f6
@@ -163,7 +170,8 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SwiftOCR: e1a5c7582f074b54df2b1ad273983088b3cf5d45
 
-PODFILE CHECKSUM: 66bdb5f0cbf37aa405f976912c7cd3b1db13b4a8
+PODFILE CHECKSUM: 93adf33630c32441e339bb4a4ae5306b2ec5391c
 
 COCOAPODS: 1.5.3

@@ -264,6 +264,9 @@
                                 <rect key="frame" x="297" y="177" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="image"/>
+                                <connections>
+                                    <action selector="chooseBtn:" destination="4Pb-il-VFr" eventType="touchUpInside" id="E2c-VV-hc9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkQ-EZ-nQH">
                                 <rect key="frame" x="110" y="543" width="155" height="50"/>
@@ -302,6 +305,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="amk-0r-ZNk"/>
                     <navigationItem key="navigationItem" id="OXk-A5-MEJ"/>
+                    <connections>
+                        <outlet property="img" destination="xax-31-YVO" id="fOz-H8-uKr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAn-dN-uTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -418,8 +424,8 @@
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
         <image name="data" width="375" height="667"/>
         <image name="fillin" width="375" height="667"/>
-        <image name="image" width="512" height="512"/>
-        <image name="photo-camera" width="512" height="512"/>
+        <image name="image" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="photo-camera" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sacan1" width="375" height="667"/>
         <image name="white" width="1920" height="1080"/>
     </resources>

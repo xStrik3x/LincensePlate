@@ -14,6 +14,20 @@ class ScanViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     
     @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var Plate: UILabel!
+    @IBAction func OCR(_ sender: Any) {
+        
+        let swiftOCRIns = SwiftOCR()
+        swiftOCRIns.recognize(img.image!) { recognizedString in
+            DispatchQueue.main.async {
+                self.Plate.text = recognizedString
+            }
+            print(recognizedString)
+            
+        }
+
+    }
+    
     
     @IBAction func chooseBtn(_ sender: Any) {
         let imagePicker = UIImagePickerController()
@@ -34,12 +48,6 @@ class ScanViewController: UIViewController, UIImagePickerControllerDelegate, UIN
 
         // Do any additional setup after loading the view.
         
-//        let swiftOCRIns = SwiftOCR()
-//
-//        imagePicker.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
-//        swiftOCRIns.recognize(img.image!) { recognizedString in
-//            print(recognizedString)
-//        }
     }
     
 

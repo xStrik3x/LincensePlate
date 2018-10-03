@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var emailtext: UITextField!
     @IBOutlet weak var passtext: UITextField!
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

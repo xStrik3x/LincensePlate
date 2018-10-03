@@ -1,796 +1,798 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 48;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */; };
-        3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68DA3321621ADA0020EEE9 /* TabController.swift */; };
-        3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75BCD4215F554400DAF13B /* FillViewController.swift */; };
-        3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */; };
-        3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE69488215F649300510C89 /* RetrieveViewController.swift */; };
-        3FF194F72164A90100C86505 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF194F62164A90100C86505 /* ScanViewController.swift */; };
-        3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EC2214660A400F7A034 /* AppDelegate.swift */; };
-        3FF33EC5214660A400F7A034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EC4214660A400F7A034 /* ViewController.swift */; };
-        3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33EC6214660A400F7A034 /* Main.storyboard */; };
-        3FF33ECA214660A400F7A034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33EC9214660A400F7A034 /* Assets.xcassets */; };
-        3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */; };
-        3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */; };
-        3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */; };
-        A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */; };
-        C4E011122164A5C600606881 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E011102164A5C600606881 /* DLRadioButton.m */; };
-        C4FC1FC321649F2500219AA6 /* FC Lamoon Regular ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */; };
-        C4FC1FC421649F2500219AA6 /* FC Lamoon Bold ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */; };
-        C4FC1FC521649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */; };
-        C4FC1FC621649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */; };
-        C4FC1FC721649F2500219AA6 /* FC Lamoon Regular ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */; };
-        C4FC1FC821649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */; };
-        C4FC1FC921649F2500219AA6 /* FC Lamoon Light ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */; };
-        C4FC1FCA21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */; };
-        C4FC1FCB21649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */; };
-        C4FC1FCC21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */; };
-        C4FC1FCD21649F2500219AA6 /* FC Lamoon Light ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */; };
-        C4FC1FCE21649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */; };
-        E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */; };
+		2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */; };
+		3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68DA3321621ADA0020EEE9 /* TabController.swift */; };
+		3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75BCD4215F554400DAF13B /* FillViewController.swift */; };
+		3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */; };
+		3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE69488215F649300510C89 /* RetrieveViewController.swift */; };
+		3FF194F72164A90100C86505 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF194F62164A90100C86505 /* ScanViewController.swift */; };
+		3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EC2214660A400F7A034 /* AppDelegate.swift */; };
+		3FF33EC5214660A400F7A034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EC4214660A400F7A034 /* ViewController.swift */; };
+		3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33EC6214660A400F7A034 /* Main.storyboard */; };
+		3FF33ECA214660A400F7A034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33EC9214660A400F7A034 /* Assets.xcassets */; };
+		3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */; };
+		3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */; };
+		3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */; };
+		A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */; };
+		C4E011122164A5C600606881 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E011102164A5C600606881 /* DLRadioButton.m */; };
+		C4FC1FC321649F2500219AA6 /* FC Lamoon Regular ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */; };
+		C4FC1FC421649F2500219AA6 /* FC Lamoon Bold ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */; };
+		C4FC1FC521649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */; };
+		C4FC1FC621649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */; };
+		C4FC1FC721649F2500219AA6 /* FC Lamoon Regular ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */; };
+		C4FC1FC821649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */; };
+		C4FC1FC921649F2500219AA6 /* FC Lamoon Light ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */; };
+		C4FC1FCA21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */; };
+		C4FC1FCB21649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */; };
+		C4FC1FCC21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */; };
+		C4FC1FCD21649F2500219AA6 /* FC Lamoon Light ver 1.00.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */; };
+		C4FC1FCE21649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */; };
+		E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-        3FF33ED4214660A400F7A034 /* PBXContainerItemProxy */ = {
-            isa = PBXContainerItemProxy;
-            containerPortal = 3FF33EB7214660A300F7A034 /* Project object */;
-            proxyType = 1;
-            remoteGlobalIDString = 3FF33EBE214660A300F7A034;
-            remoteInfo = lincenseplate;
-        };
-        3FF33EDF214660A400F7A034 /* PBXContainerItemProxy */ = {
-            isa = PBXContainerItemProxy;
-            containerPortal = 3FF33EB7214660A300F7A034 /* Project object */;
-            proxyType = 1;
-            remoteGlobalIDString = 3FF33EBE214660A300F7A034;
-            remoteInfo = lincenseplate;
-        };
+		3FF33ED4214660A400F7A034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF33EB7214660A300F7A034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF33EBE214660A300F7A034;
+			remoteInfo = lincenseplate;
+		};
+		3FF33EDF214660A400F7A034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF33EB7214660A300F7A034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF33EBE214660A300F7A034;
+			remoteInfo = lincenseplate;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-        2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.release.xcconfig"; sourceTree = "<group>"; };
-        3F68DA3321621ADA0020EEE9 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
-        3F75BCD4215F554400DAF13B /* FillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillViewController.swift; sourceTree = "<group>"; };
-        3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-        3FE69488215F649300510C89 /* RetrieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveViewController.swift; sourceTree = "<group>"; };
-        3FF194F62164A90100C86505 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
-        3FF33EBF214660A300F7A034 /* lincenseplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lincenseplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        3FF33EC2214660A400F7A034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        3FF33EC4214660A400F7A034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-        3FF33EC7214660A400F7A034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        3FF33EC9214660A400F7A034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        3FF33ECC214660A400F7A034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        3FF33ECE214660A400F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        3FF33ED3214660A400F7A034 /* lincenseplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lincenseplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-        3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lincenseplateTests.swift; sourceTree = "<group>"; };
-        3FF33ED9214660A400F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lincenseplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-        3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lincenseplateUITests.swift; sourceTree = "<group>"; };
-        3FF33EE4214660A500F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-        984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.release.xcconfig"; sourceTree = "<group>"; };
-        A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.release.xcconfig"; sourceTree = "<group>"; };
-        BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-        C4E0110F2164A5C500606881 /* lincenseplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lincenseplate-Bridging-Header.h"; sourceTree = "<group>"; };
-        C4E011102164A5C600606881 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
-        C4E011112164A5C600606881 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
-        C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular ver 1.00.ttf"; sourceTree = "<group>"; };
-        C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold ver 1.00.otf"; sourceTree = "<group>"; };
-        C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold Italic ver 1.00.ttf"; sourceTree = "<group>"; };
-        C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light Italic ver 1.00.ttf"; sourceTree = "<group>"; };
-        C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular ver 1.00.otf"; sourceTree = "<group>"; };
-        C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold Italic ver 1.00.otf"; sourceTree = "<group>"; };
-        C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light ver 1.00.ttf"; sourceTree = "<group>"; };
-        C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular Italic ver 1.00.ttf"; sourceTree = "<group>"; };
-        C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light Italic ver 1.00.otf"; sourceTree = "<group>"; };
-        C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular Italic ver 1.00.otf"; sourceTree = "<group>"; };
-        C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light ver 1.00.otf"; sourceTree = "<group>"; };
-        C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold ver 1.00.ttf"; sourceTree = "<group>"; };
-        EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-        F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
-        F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.debug.xcconfig"; sourceTree = "<group>"; };
-        F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.release.xcconfig"; sourceTree = "<group>"; };
+		3F68DA3321621ADA0020EEE9 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		3F75BCD4215F554400DAF13B /* FillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillViewController.swift; sourceTree = "<group>"; };
+		3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FE69488215F649300510C89 /* RetrieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveViewController.swift; sourceTree = "<group>"; };
+		3FF194F62164A90100C86505 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		3FF33EBF214660A300F7A034 /* lincenseplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lincenseplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF33EC2214660A400F7A034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF33EC4214660A400F7A034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF33EC7214660A400F7A034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF33EC9214660A400F7A034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF33ECC214660A400F7A034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF33ECE214660A400F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF33ED3214660A400F7A034 /* lincenseplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lincenseplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lincenseplateTests.swift; sourceTree = "<group>"; };
+		3FF33ED9214660A400F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lincenseplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lincenseplateUITests.swift; sourceTree = "<group>"; };
+		3FF33EE4214660A500F7A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E0110F2164A5C500606881 /* lincenseplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lincenseplate-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4E011102164A5C600606881 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		C4E011112164A5C600606881 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		C4E011132164B13000606881 /* Sarun's ThangLuang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sarun's ThangLuang.ttf"; sourceTree = "<group>"; };
+		C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold Italic ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light Italic ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold Italic ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular Italic ver 1.00.ttf"; sourceTree = "<group>"; };
+		C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light Italic ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Regular Italic ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Light ver 1.00.otf"; sourceTree = "<group>"; };
+		C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Lamoon Bold ver 1.00.ttf"; sourceTree = "<group>"; };
+		EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lincenseplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        3FF33EBC214660A300F7A034 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        3FF33ED0214660A400F7A034 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        3FF33EDB214660A400F7A034 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		3FF33EBC214660A300F7A034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF33ED0214660A400F7A034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF33EDB214660A400F7A034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759847C598E3644DE30133C /* Pods_lincenseplateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        2DBB2C240DFCAAD1076B8D81 /* Pods */ = {
-            isa = PBXGroup;
-            children = (
-                F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */,
-                2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */,
-                EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */,
-                984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */,
-                F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */,
-                A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */,
-            );
-            name = Pods;
-            sourceTree = "<group>";
-        };
-        3FF33EB6214660A300F7A034 = {
-            isa = PBXGroup;
-            children = (
-                C4FC1FB621649ED000219AA6 /* New Group */,
-                3FF33EC1214660A300F7A034 /* lincenseplate */,
-                3FF33ED6214660A400F7A034 /* lincenseplateTests */,
-                3FF33EE1214660A400F7A034 /* lincenseplateUITests */,
-                3FF33EC0214660A300F7A034 /* Products */,
-                2DBB2C240DFCAAD1076B8D81 /* Pods */,
-                BBE2A1B678A599AC8F6B0812 /* Frameworks */,
-            );
-            sourceTree = "<group>";
-        };
-        3FF33EC0214660A300F7A034 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                3FF33EBF214660A300F7A034 /* lincenseplate.app */,
-                3FF33ED3214660A400F7A034 /* lincenseplateTests.xctest */,
-                3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        3FF33EC1214660A300F7A034 /* lincenseplate */ = {
-            isa = PBXGroup;
-            children = (
-                3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */,
-                3FF33EC2214660A400F7A034 /* AppDelegate.swift */,
-                3FF33EC4214660A400F7A034 /* ViewController.swift */,
-                3FF33EC6214660A400F7A034 /* Main.storyboard */,
-                3FF33EC9214660A400F7A034 /* Assets.xcassets */,
-                3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */,
-                3FF33ECE214660A400F7A034 /* Info.plist */,
-                3F75BCD4215F554400DAF13B /* FillViewController.swift */,
-                3FE69488215F649300510C89 /* RetrieveViewController.swift */,
-                3F68DA3321621ADA0020EEE9 /* TabController.swift */,
+		2DBB2C240DFCAAD1076B8D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */,
+				2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */,
+				EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */,
+				984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */,
+				F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */,
+				A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FF33EB6214660A300F7A034 = {
+			isa = PBXGroup;
+			children = (
+				C4FC1FB621649ED000219AA6 /* New Group */,
+				3FF33EC1214660A300F7A034 /* lincenseplate */,
+				3FF33ED6214660A400F7A034 /* lincenseplateTests */,
+				3FF33EE1214660A400F7A034 /* lincenseplateUITests */,
+				3FF33EC0214660A300F7A034 /* Products */,
+				2DBB2C240DFCAAD1076B8D81 /* Pods */,
+				BBE2A1B678A599AC8F6B0812 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF33EC0214660A300F7A034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF33EBF214660A300F7A034 /* lincenseplate.app */,
+				3FF33ED3214660A400F7A034 /* lincenseplateTests.xctest */,
+				3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF33EC1214660A300F7A034 /* lincenseplate */ = {
+			isa = PBXGroup;
+			children = (
+				3F8375ED2161F7A9002F6B5F /* GoogleService-Info.plist */,
+				3FF33EC2214660A400F7A034 /* AppDelegate.swift */,
+				3FF33EC4214660A400F7A034 /* ViewController.swift */,
+				3FF33EC6214660A400F7A034 /* Main.storyboard */,
+				3FF33EC9214660A400F7A034 /* Assets.xcassets */,
+				3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */,
+				3FF33ECE214660A400F7A034 /* Info.plist */,
+				3F75BCD4215F554400DAF13B /* FillViewController.swift */,
+				3FE69488215F649300510C89 /* RetrieveViewController.swift */,
+				3F68DA3321621ADA0020EEE9 /* TabController.swift */,
 				3FF194F62164A90100C86505 /* ScanViewController.swift */,
 				C4E011112164A5C600606881 /* DLRadioButton.h */,
 				C4E011102164A5C600606881 /* DLRadioButton.m */,
 				C4E0110F2164A5C500606881 /* lincenseplate-Bridging-Header.h */,
-            );
-            path = lincenseplate;
-            sourceTree = "<group>";
-        };
-        3FF33ED6214660A400F7A034 /* lincenseplateTests */ = {
-            isa = PBXGroup;
-            children = (
-                3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */,
-                3FF33ED9214660A400F7A034 /* Info.plist */,
-            );
-            path = lincenseplateTests;
-            sourceTree = "<group>";
-        };
-        3FF33EE1214660A400F7A034 /* lincenseplateUITests */ = {
-            isa = PBXGroup;
-            children = (
-                3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */,
-                3FF33EE4214660A500F7A034 /* Info.plist */,
-            );
-            path = lincenseplateUITests;
-            sourceTree = "<group>";
-        };
-        BBE2A1B678A599AC8F6B0812 /* Frameworks */ = {
-            isa = PBXGroup;
-            children = (
-                7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */,
-                F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */,
-                BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */,
-            );
-            name = Frameworks;
-            sourceTree = "<group>";
-        };
-        C4FC1FB621649ED000219AA6 /* New Group */ = {
-            isa = PBXGroup;
-            children = (
-                C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */,
-                C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */,
-                C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */,
-                C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */,
-                C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */,
-                C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */,
-                C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */,
-                C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */,
-                C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */,
-                C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */,
-                C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */,
-                C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */,
-            );
-            path = "New Group";
-            sourceTree = "<group>";
-        };
+			);
+			path = lincenseplate;
+			sourceTree = "<group>";
+		};
+		3FF33ED6214660A400F7A034 /* lincenseplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */,
+				3FF33ED9214660A400F7A034 /* Info.plist */,
+			);
+			path = lincenseplateTests;
+			sourceTree = "<group>";
+		};
+		3FF33EE1214660A400F7A034 /* lincenseplateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */,
+				3FF33EE4214660A500F7A034 /* Info.plist */,
+			);
+			path = lincenseplateUITests;
+			sourceTree = "<group>";
+		};
+		BBE2A1B678A599AC8F6B0812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */,
+				F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */,
+				BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FC1FB621649ED000219AA6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C4E011132164B13000606881 /* Sarun's ThangLuang.ttf */,
+				C4FC1FBC21649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.otf */,
+				C4FC1FB921649F2400219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf */,
+				C4FC1FB821649F2400219AA6 /* FC Lamoon Bold ver 1.00.otf */,
+				C4FC1FC221649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf */,
+				C4FC1FBF21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.otf */,
+				C4FC1FBA21649F2400219AA6 /* FC Lamoon Light Italic ver 1.00.ttf */,
+				C4FC1FC121649F2500219AA6 /* FC Lamoon Light ver 1.00.otf */,
+				C4FC1FBD21649F2400219AA6 /* FC Lamoon Light ver 1.00.ttf */,
+				C4FC1FC021649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.otf */,
+				C4FC1FBE21649F2400219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf */,
+				C4FC1FBB21649F2400219AA6 /* FC Lamoon Regular ver 1.00.otf */,
+				C4FC1FB721649F2400219AA6 /* FC Lamoon Regular ver 1.00.ttf */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        3FF33EBE214660A300F7A034 /* lincenseplate */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 3FF33EE7214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplate" */;
-            buildPhases = (
-                BDEB11536FFB57C60286BA22 /* [CP] Check Pods Manifest.lock */,
-                3FF33EBB214660A300F7A034 /* Sources */,
-                3FF33EBC214660A300F7A034 /* Frameworks */,
-                3FF33EBD214660A300F7A034 /* Resources */,
-                15E3966FAC27EB080FA06F12 /* [CP] Embed Pods Frameworks */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = lincenseplate;
-            productName = lincenseplate;
-            productReference = 3FF33EBF214660A300F7A034 /* lincenseplate.app */;
-            productType = "com.apple.product-type.application";
-        };
-        3FF33ED2214660A400F7A034 /* lincenseplateTests */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 3FF33EEA214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateTests" */;
-            buildPhases = (
-                1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */,
-                3FF33ECF214660A400F7A034 /* Sources */,
-                3FF33ED0214660A400F7A034 /* Frameworks */,
-                3FF33ED1214660A400F7A034 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-                3FF33ED5214660A400F7A034 /* PBXTargetDependency */,
-            );
-            name = lincenseplateTests;
-            productName = lincenseplateTests;
-            productReference = 3FF33ED3214660A400F7A034 /* lincenseplateTests.xctest */;
-            productType = "com.apple.product-type.bundle.unit-test";
-        };
-        3FF33EDD214660A400F7A034 /* lincenseplateUITests */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 3FF33EED214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateUITests" */;
-            buildPhases = (
-                A6CBCD4F4ED2433AACB44D38 /* [CP] Check Pods Manifest.lock */,
-                3FF33EDA214660A400F7A034 /* Sources */,
-                3FF33EDB214660A400F7A034 /* Frameworks */,
-                3FF33EDC214660A400F7A034 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-                3FF33EE0214660A400F7A034 /* PBXTargetDependency */,
-            );
-            name = lincenseplateUITests;
-            productName = lincenseplateUITests;
-            productReference = 3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */;
-            productType = "com.apple.product-type.bundle.ui-testing";
-        };
+		3FF33EBE214660A300F7A034 /* lincenseplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF33EE7214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplate" */;
+			buildPhases = (
+				BDEB11536FFB57C60286BA22 /* [CP] Check Pods Manifest.lock */,
+				3FF33EBB214660A300F7A034 /* Sources */,
+				3FF33EBC214660A300F7A034 /* Frameworks */,
+				3FF33EBD214660A300F7A034 /* Resources */,
+				15E3966FAC27EB080FA06F12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lincenseplate;
+			productName = lincenseplate;
+			productReference = 3FF33EBF214660A300F7A034 /* lincenseplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF33ED2214660A400F7A034 /* lincenseplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF33EEA214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateTests" */;
+			buildPhases = (
+				1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */,
+				3FF33ECF214660A400F7A034 /* Sources */,
+				3FF33ED0214660A400F7A034 /* Frameworks */,
+				3FF33ED1214660A400F7A034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF33ED5214660A400F7A034 /* PBXTargetDependency */,
+			);
+			name = lincenseplateTests;
+			productName = lincenseplateTests;
+			productReference = 3FF33ED3214660A400F7A034 /* lincenseplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF33EDD214660A400F7A034 /* lincenseplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF33EED214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateUITests" */;
+			buildPhases = (
+				A6CBCD4F4ED2433AACB44D38 /* [CP] Check Pods Manifest.lock */,
+				3FF33EDA214660A400F7A034 /* Sources */,
+				3FF33EDB214660A400F7A034 /* Frameworks */,
+				3FF33EDC214660A400F7A034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF33EE0214660A400F7A034 /* PBXTargetDependency */,
+			);
+			name = lincenseplateUITests;
+			productName = lincenseplateUITests;
+			productReference = 3FF33EDE214660A400F7A034 /* lincenseplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        3FF33EB7214660A300F7A034 /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 0920;
-                LastUpgradeCheck = 0920;
-                ORGANIZATIONNAME = student;
-                TargetAttributes = {
-                    3FF33EBE214660A300F7A034 = {
-                        CreatedOnToolsVersion = 9.2;
-                        LastSwiftMigration = 1000;
-                        ProvisioningStyle = Automatic;
-                    };
-                    3FF33ED2214660A400F7A034 = {
-                        CreatedOnToolsVersion = 9.2;
-                        ProvisioningStyle = Automatic;
-                        TestTargetID = 3FF33EBE214660A300F7A034;
-                    };
-                    3FF33EDD214660A400F7A034 = {
-                        CreatedOnToolsVersion = 9.2;
-                        ProvisioningStyle = Automatic;
-                        TestTargetID = 3FF33EBE214660A300F7A034;
-                    };
-                };
-            };
-            buildConfigurationList = 3FF33EBA214660A300F7A034 /* Build configuration list for PBXProject "lincenseplate" */;
-            compatibilityVersion = "Xcode 8.0";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = 3FF33EB6214660A300F7A034;
-            productRefGroup = 3FF33EC0214660A300F7A034 /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                3FF33EBE214660A300F7A034 /* lincenseplate */,
-                3FF33ED2214660A400F7A034 /* lincenseplateTests */,
-                3FF33EDD214660A400F7A034 /* lincenseplateUITests */,
-            );
-        };
+		3FF33EB7214660A300F7A034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FF33EBE214660A300F7A034 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					3FF33ED2214660A400F7A034 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FF33EBE214660A300F7A034;
+					};
+					3FF33EDD214660A400F7A034 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FF33EBE214660A300F7A034;
+					};
+				};
+			};
+			buildConfigurationList = 3FF33EBA214660A300F7A034 /* Build configuration list for PBXProject "lincenseplate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF33EB6214660A300F7A034;
+			productRefGroup = 3FF33EC0214660A300F7A034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF33EBE214660A300F7A034 /* lincenseplate */,
+				3FF33ED2214660A400F7A034 /* lincenseplateTests */,
+				3FF33EDD214660A400F7A034 /* lincenseplateUITests */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        3FF33EBD214660A300F7A034 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                C4FC1FC621649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.ttf in Resources */,
-                3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */,
-                C4FC1FC721649F2500219AA6 /* FC Lamoon Regular ver 1.00.otf in Resources */,
-                C4FC1FCE21649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf in Resources */,
-                C4FC1FC821649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.otf in Resources */,
-                C4FC1FCA21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf in Resources */,
-                C4FC1FCC21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.otf in Resources */,
-                C4FC1FC321649F2500219AA6 /* FC Lamoon Regular ver 1.00.ttf in Resources */,
-                C4FC1FC421649F2500219AA6 /* FC Lamoon Bold ver 1.00.otf in Resources */,
-                C4FC1FCB21649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.otf in Resources */,
-                C4FC1FC921649F2500219AA6 /* FC Lamoon Light ver 1.00.ttf in Resources */,
-                3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */,
-                C4FC1FCD21649F2500219AA6 /* FC Lamoon Light ver 1.00.otf in Resources */,
-                3FF33ECA214660A400F7A034 /* Assets.xcassets in Resources */,
-                3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */,
-                C4FC1FC521649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        3FF33ED1214660A400F7A034 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        3FF33EDC214660A400F7A034 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		3FF33EBD214660A300F7A034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FC1FC621649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.ttf in Resources */,
+				3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */,
+				C4FC1FC721649F2500219AA6 /* FC Lamoon Regular ver 1.00.otf in Resources */,
+				C4FC1FCE21649F2500219AA6 /* FC Lamoon Bold ver 1.00.ttf in Resources */,
+				C4FC1FC821649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.otf in Resources */,
+				C4FC1FCA21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.ttf in Resources */,
+				C4FC1FCC21649F2500219AA6 /* FC Lamoon Regular Italic ver 1.00.otf in Resources */,
+				C4FC1FC321649F2500219AA6 /* FC Lamoon Regular ver 1.00.ttf in Resources */,
+				C4FC1FC421649F2500219AA6 /* FC Lamoon Bold ver 1.00.otf in Resources */,
+				C4FC1FCB21649F2500219AA6 /* FC Lamoon Light Italic ver 1.00.otf in Resources */,
+				C4FC1FC921649F2500219AA6 /* FC Lamoon Light ver 1.00.ttf in Resources */,
+				3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */,
+				C4FC1FCD21649F2500219AA6 /* FC Lamoon Light ver 1.00.otf in Resources */,
+				3FF33ECA214660A400F7A034 /* Assets.xcassets in Resources */,
+				3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */,
+				C4FC1FC521649F2500219AA6 /* FC Lamoon Bold Italic ver 1.00.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF33ED1214660A400F7A034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF33EDC214660A400F7A034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-        15E3966FAC27EB080FA06F12 /* [CP] Embed Pods Frameworks */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh",
-                "${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
-                "${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
-                "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-                "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-                "${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-                "${BUILT_PRODUCTS_DIR}/SwiftOCR/SwiftOCR.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
-                "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-                "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-            );
-            name = "[CP] Embed Pods Frameworks";
-            outputPaths = (
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOCR.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh\"\n";
-            showEnvVarsInLog = 0;
-        };
-        1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-lincenseplateTests-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        A6CBCD4F4ED2433AACB44D38 /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-lincenseplateUITests-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        BDEB11536FFB57C60286BA22 /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-lincenseplate-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
+		15E3966FAC27EB080FA06F12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftOCR/SwiftOCR.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOCR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lincenseplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CBCD4F4ED2433AACB44D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lincenseplateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDEB11536FFB57C60286BA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lincenseplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        3FF33EBB214660A300F7A034 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */,
-                C4E011122164A5C600606881 /* DLRadioButton.m in Sources */,
-                3FF33EC5214660A400F7A034 /* ViewController.swift in Sources */,
-                3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */,
-                3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */,
-                3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */,
-                3FF194F72164A90100C86505 /* ScanViewController.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        3FF33ECF214660A400F7A034 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        3FF33EDA214660A400F7A034 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		3FF33EBB214660A300F7A034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F68DA3421621ADA0020EEE9 /* TabController.swift in Sources */,
+				C4E011122164A5C600606881 /* DLRadioButton.m in Sources */,
+				3FF33EC5214660A400F7A034 /* ViewController.swift in Sources */,
+				3FE69489215F649300510C89 /* RetrieveViewController.swift in Sources */,
+				3F75BCD5215F554400DAF13B /* FillViewController.swift in Sources */,
+				3FF33EC3214660A400F7A034 /* AppDelegate.swift in Sources */,
+				3FF194F72164A90100C86505 /* ScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF33ECF214660A400F7A034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF33EDA214660A400F7A034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-        3FF33ED5214660A400F7A034 /* PBXTargetDependency */ = {
-            isa = PBXTargetDependency;
-            target = 3FF33EBE214660A300F7A034 /* lincenseplate */;
-            targetProxy = 3FF33ED4214660A400F7A034 /* PBXContainerItemProxy */;
-        };
-        3FF33EE0214660A400F7A034 /* PBXTargetDependency */ = {
-            isa = PBXTargetDependency;
-            target = 3FF33EBE214660A300F7A034 /* lincenseplate */;
-            targetProxy = 3FF33EDF214660A400F7A034 /* PBXContainerItemProxy */;
-        };
+		3FF33ED5214660A400F7A034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF33EBE214660A300F7A034 /* lincenseplate */;
+			targetProxy = 3FF33ED4214660A400F7A034 /* PBXContainerItemProxy */;
+		};
+		3FF33EE0214660A400F7A034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF33EBE214660A300F7A034 /* lincenseplate */;
+			targetProxy = 3FF33EDF214660A400F7A034 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-        3FF33EC6214660A400F7A034 /* Main.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                3FF33EC7214660A400F7A034 /* Base */,
-            );
-            name = Main.storyboard;
-            sourceTree = "<group>";
-        };
-        3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                3FF33ECC214660A400F7A034 /* Base */,
-            );
-            name = LaunchScreen.storyboard;
-            sourceTree = "<group>";
-        };
+		3FF33EC6214660A400F7A034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF33EC7214660A400F7A034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF33ECB214660A400F7A034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF33ECC214660A400F7A034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-        3FF33EE5214660A500F7A034 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-                MTL_ENABLE_DEBUG_INFO = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        3FF33EE6214660A500F7A034 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                SDKROOT = iphoneos;
-                SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        3FF33EE8214660A500F7A034 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CLANG_ENABLE_MODULES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                INFOPLIST_FILE = lincenseplate/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_OBJC_BRIDGING_HEADER = "lincenseplate/lincenseplate-Bridging-Header.h";
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        3FF33EE9214660A500F7A034 /* Release */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = 2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CLANG_ENABLE_MODULES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                INFOPLIST_FILE = lincenseplate/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_OBJC_BRIDGING_HEADER = "lincenseplate/lincenseplate-Bridging-Header.h";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
-        3FF33EEB214660A500F7A034 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                BUNDLE_LOADER = "$(TEST_HOST)";
-                CODE_SIGN_STYLE = Automatic;
-                INFOPLIST_FILE = lincenseplateTests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateTests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lincenseplate.app/lincenseplate";
-            };
-            name = Debug;
-        };
-        3FF33EEC214660A500F7A034 /* Release */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = 984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                BUNDLE_LOADER = "$(TEST_HOST)";
-                CODE_SIGN_STYLE = Automatic;
-                INFOPLIST_FILE = lincenseplateTests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateTests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lincenseplate.app/lincenseplate";
-            };
-            name = Release;
-        };
-        3FF33EEE214660A500F7A034 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                INFOPLIST_FILE = lincenseplateUITests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateUITests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_TARGET_NAME = lincenseplate;
-            };
-            name = Debug;
-        };
-        3FF33EEF214660A500F7A034 /* Release */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                INFOPLIST_FILE = lincenseplateUITests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateUITests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_TARGET_NAME = lincenseplate;
-            };
-            name = Release;
-        };
+		3FF33EE5214660A500F7A034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FF33EE6214660A500F7A034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF33EE8214660A500F7A034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lincenseplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lincenseplate/lincenseplate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FF33EE9214660A500F7A034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D98DCA90F79C05C0B6EF692 /* Pods-lincenseplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lincenseplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lincenseplate/lincenseplate-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FF33EEB214660A500F7A034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lincenseplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lincenseplate.app/lincenseplate";
+			};
+			name = Debug;
+		};
+		3FF33EEC214660A500F7A034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984F3922DE022991D5003923 /* Pods-lincenseplateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lincenseplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lincenseplate.app/lincenseplate";
+			};
+			name = Release;
+		};
+		3FF33EEE214660A500F7A034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lincenseplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lincenseplate;
+			};
+			name = Debug;
+		};
+		3FF33EEF214660A500F7A034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9698A77C75FCA97FCA9555F /* Pods-lincenseplateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lincenseplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lincenseplate;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        3FF33EBA214660A300F7A034 /* Build configuration list for PBXProject "lincenseplate" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                3FF33EE5214660A500F7A034 /* Debug */,
-                3FF33EE6214660A500F7A034 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        3FF33EE7214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplate" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                3FF33EE8214660A500F7A034 /* Debug */,
-                3FF33EE9214660A500F7A034 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        3FF33EEA214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateTests" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                3FF33EEB214660A500F7A034 /* Debug */,
-                3FF33EEC214660A500F7A034 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        3FF33EED214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateUITests" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                3FF33EEE214660A500F7A034 /* Debug */,
-                3FF33EEF214660A500F7A034 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		3FF33EBA214660A300F7A034 /* Build configuration list for PBXProject "lincenseplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF33EE5214660A500F7A034 /* Debug */,
+				3FF33EE6214660A500F7A034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF33EE7214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF33EE8214660A500F7A034 /* Debug */,
+				3FF33EE9214660A500F7A034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF33EEA214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF33EEB214660A500F7A034 /* Debug */,
+				3FF33EEC214660A500F7A034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF33EED214660A500F7A034 /* Build configuration list for PBXNativeTarget "lincenseplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF33EEE214660A500F7A034 /* Debug */,
+				3FF33EEF214660A500F7A034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-    };
-    rootObject = 3FF33EB7214660A300F7A034 /* Project object */;
+	};
+	rootObject = 3FF33EB7214660A300F7A034 /* Project object */;
 }

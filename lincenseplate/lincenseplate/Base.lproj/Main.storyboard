@@ -13,6 +13,9 @@
         <array key="FC Lamoon Regular ver 1.00.ttf">
             <string>FCLamoonRegular</string>
         </array>
+        <array key="Sarun's ThangLuang.ttf">
+            <string>SarunsThangLuang</string>
+        </array>
     </customFonts>
     <scenes>
         <!--กรอก-->
@@ -107,78 +110,71 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYS-vQ-H3J">
-                                <rect key="frame" x="213" y="532" width="125" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รหัส" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sG7-IK-Bv0">
+                                <rect key="frame" x="103" y="265" width="29" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="คณะ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ais-dE-nPK">
-                                <rect key="frame" x="85" y="527" width="47" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="คณะ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOC-rj-icK">
+                                <rect key="frame" x="98" y="469" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYS-vQ-H3J">
+                                <rect key="frame" x="213" y="472" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สถานะ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ais-dE-nPK">
+                                <rect key="frame" x="85" y="540" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ชื่อ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-dC-dPb">
-                                <rect key="frame" x="107" y="342" width="25" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รหัส" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPr-O1-XWB">
-                                <rect key="frame" x="97" y="211" width="35" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สถานะ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWp-YP-7Nd">
-                                <rect key="frame" x="85" y="277" width="47" height="30"/>
+                                <rect key="frame" x="107" y="328" width="25" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="นามสกุล" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbB-GE-bUs">
-                                <rect key="frame" x="71" y="407" width="61" height="30"/>
+                                <rect key="frame" x="71" y="401" width="61" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHY-pK-R1r">
-                                <rect key="frame" x="213" y="216" width="125" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNB-EK-GHn">
-                                <rect key="frame" x="213" y="282" width="125" height="21"/>
+                                <rect key="frame" x="213" y="270" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sh8-bi-uNM">
-                                <rect key="frame" x="213" y="352" width="125" height="21"/>
+                                <rect key="frame" x="213" y="338" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4o-Gf-UFH">
-                                <rect key="frame" x="213" y="412" width="125" height="21"/>
+                                <rect key="frame" x="213" y="406" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2u-zh-hsh">
-                                <rect key="frame" x="213" y="472" width="125" height="21"/>
+                                <rect key="frame" x="213" y="197" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -191,15 +187,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เบอร์โทรศัพท์" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E46-Op-Gvj">
-                                <rect key="frame" x="37" y="467" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9T-WU-ZX7">
-                                <rect key="frame" x="110" y="587" width="155" height="50"/>
+                                <rect key="frame" x="107" y="604" width="155" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.48627450979999998" green="0.52941176469999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="30"/>
@@ -216,6 +205,20 @@
                                     <segue destination="EkE-Me-fab" kind="modal" id="Uxk-gd-3WB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เบอร์โทรศัพท์" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPr-O1-XWB">
+                                <rect key="frame" x="39" y="192" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNB-EK-GHn">
+                                <rect key="frame" x="213" y="545" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="25"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1jU-Gm-eH3"/>
@@ -250,9 +253,9 @@
                                 <state key="normal" title="Button" image="photo-camera"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สแกนทะเบียนรถ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
-                                <rect key="frame" x="86" y="135" width="203" height="44"/>
+                                <rect key="frame" x="86" y="113" width="202" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="SarunsThangLuang" family="Sarun's ThangLuang" pointSize="40"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -286,16 +289,16 @@
                                     <segue destination="gZq-fb-Hsg" kind="modal" id="quL-wN-LKp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfp-0K-r7E">
-                                <rect key="frame" x="49" y="456" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfp-0K-r7E">
+                                <rect key="frame" x="86" y="451" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scan"/>
+                                <state key="normal" title="Scan" image="loupe"/>
                                 <connections>
                                     <action selector="OCR:" destination="4Pb-il-VFr" eventType="touchUpInside" id="ZK4-TT-Xz3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5U-1v-TsH">
-                                <rect key="frame" x="122" y="461" width="204" height="21"/>
+                                <rect key="frame" x="155" y="463" width="204" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -348,28 +351,21 @@
                                 <rect key="frame" x="87" y="300" width="201" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="SarunsThangLuang" family="Sarun's ThangLuang" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="รหัสผ่าน" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ij9-Lu-vGM">
                                 <rect key="frame" x="87" y="364" width="201" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="SarunsThangLuang" family="Sarun's ThangLuang" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เข้าสู่ระบบ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSa-PJ-BFW">
-                                <rect key="frame" x="124" y="214" width="127" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="45"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO6-vd-0eO">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO6-vd-0eO">
                                 <rect key="frame" x="112" y="430" width="139" height="51"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="SarunsThangLuang" family="Sarun's ThangLuang" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="เข้าสู่ระบบ"/>
                                 <userDefinedRuntimeAttributes>
@@ -382,6 +378,13 @@
                                     <action selector="login:" destination="I0e-k5-HEI" eventType="touchUpInside" id="44B-zp-m78"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เข้าสู่ระบบ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSa-PJ-BFW">
+                                <rect key="frame" x="80" y="197" width="216" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SarunsThangLuang" family="Sarun's ThangLuang" pointSize="40"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -433,8 +436,9 @@
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
         <image name="data" width="375" height="667"/>
         <image name="fillin" width="375" height="667"/>
-        <image name="image" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="photo-camera" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="image" width="512" height="512"/>
+        <image name="loupe" width="512" height="512"/>
+        <image name="photo-camera" width="512" height="512"/>
         <image name="sacan1" width="375" height="667"/>
         <image name="white" width="1920" height="1080"/>
     </resources>

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="FC Lamoon Regular ver 1.00.ttf">
+        <array key="FC Lamoon Regular ver 1.00.otf">
             <string>FCLamoonRegular</string>
         </array>
     </customFonts>
@@ -85,7 +85,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="R9X-Fv-Z33"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="กรอก" image="license-plate (2)" id="9We-f3-MAK"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="9We-f3-MAK"/>
                     <navigationItem key="navigationItem" title="กรอก" id="DOY-FH-GqZ"/>
                     <connections>
                         <outlet property="fillTField" destination="UsX-Ul-EjW" id="GnX-nl-qea"/>
@@ -233,7 +233,7 @@
             </objects>
             <point key="canvasLocation" x="1792.8" y="895.50224887556226"/>
         </scene>
-        <!--สแกน-->
+        <!--Item-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
                 <viewController id="4Pb-il-VFr" customClass="ScanViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
@@ -249,17 +249,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="photo-camera"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สแกนทะเบียนรถ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
-                                <rect key="frame" x="86" y="134" width="203" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="45"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xax-31-YVO">
                                 <rect key="frame" x="49" y="229" width="277" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uct-bU-YD9">
                                 <rect key="frame" x="297" y="177" width="48" height="44"/>
@@ -302,6 +294,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สแกนทะเบียนรถ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
+                                <rect key="frame" x="86" y="131" width="203" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="45"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -312,7 +311,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YwA-Yp-2Te"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="สแกน" image="barcode" id="amk-0r-ZNk"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="amk-0r-ZNk"/>
                     <navigationItem key="navigationItem" id="OXk-A5-MEJ"/>
                     <connections>
                         <outlet property="Plate" destination="Q5U-1v-TsH" id="OTN-hh-tna"/>
@@ -377,7 +376,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เข้าสู่ระบบ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSa-PJ-BFW">
-                                <rect key="frame" x="79" y="209" width="216" height="74"/>
+                                <rect key="frame" x="80" y="197" width="216" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="FCLamoonRegular" family="FC Lamoon" pointSize="45"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -432,17 +431,15 @@
     </scenes>
     <resources>
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
-        <image name="barcode" width="32" height="32"/>
         <image name="data" width="375" height="667"/>
         <image name="fillin" width="375" height="667"/>
-        <image name="image" width="512" height="512"/>
-        <image name="license-plate (2)" width="32" height="32"/>
-        <image name="loupe" width="512" height="512"/>
-        <image name="photo-camera" width="512" height="512"/>
+        <image name="image" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="loupe" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="photo-camera" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sacan1" width="375" height="667"/>
         <image name="white" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Uxk-gd-3WB"/>
+        <segue reference="quL-wN-LKp"/>
     </inferredMetricsTieBreakers>
 </document>

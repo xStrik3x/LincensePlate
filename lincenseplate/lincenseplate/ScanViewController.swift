@@ -28,7 +28,7 @@ class ScanViewController: UIViewController, UIImagePickerControllerDelegate, UIN
             }
         }
         else{
-            let alert = UIAlertController(title: "โปรดเลือกหรือถ่ายรูป", message: nil, preferredStyle: .alert)
+            let alert = UIAlertController(title: "โปรดเลือกรูปหรือถ่ายรูป", message: nil, preferredStyle: .alert)
             let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
             alert.addAction(okButton)
             self.present(alert,animated: true,completion: nil)

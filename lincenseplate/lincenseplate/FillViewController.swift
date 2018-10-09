@@ -28,7 +28,7 @@ class FillViewController: UIViewController, UITextFieldDelegate {
                             self.present(retriVC, animated: true, completion: nil)
                         })
                     } else {
-                        let alert = UIAlertController(title: "ไม่มียานพาหนะในระบบ", message: nil, preferredStyle: .alert)
+                        let alert = UIAlertController(title: "ไม่มีเลขทะเบียนในระบบ", message: nil, preferredStyle: .alert)
                         let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
                         alert.addAction(okButton)
                         self.present(alert,animated: true,completion: nil)
@@ -37,7 +37,7 @@ class FillViewController: UIViewController, UITextFieldDelegate {
                 }
             }
         } else {
-            let alert = UIAlertController(title: "โปรดกรอกเลขทะเบียนยานพาหนะ", message: nil, preferredStyle: .alert)
+            let alert = UIAlertController(title: "โปรดกรอกเลขทะเบียนรถ", message: nil, preferredStyle: .alert)
             let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
             alert.addAction(okButton)
             self.present(alert,animated: true,completion: nil)

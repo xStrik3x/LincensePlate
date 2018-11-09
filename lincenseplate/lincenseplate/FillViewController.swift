@@ -1,5 +1,3 @@
-
-
     //
     //  ScanViewController.swift
     //  lincenseplate

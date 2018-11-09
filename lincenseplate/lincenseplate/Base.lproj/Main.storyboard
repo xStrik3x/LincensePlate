@@ -138,29 +138,26 @@
             </objects>
             <point key="canvasLocation" x="3566" y="914"/>
         </scene>
-        <!--Scan View Controller-->
+        <!--รถยนต์-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
                 <viewController id="4Pb-il-VFr" customClass="ScanViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ly0-qB-Oz9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sacan1" translatesAutoresizingMaskIntoConstraints="NO" id="kcf-P4-R9U">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKq-Na-ZwP">
-                                <rect key="frame" x="30" y="177" width="48" height="44"/>
+                                <rect key="frame" x="30" y="81" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Button" image="photo-camera"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xax-31-YVO">
-                                <rect key="frame" x="49" y="229" width="277" height="204"/>
+                                <rect key="frame" x="49" y="133" width="277" height="204"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uct-bU-YD9">
-                                <rect key="frame" x="297" y="177" width="48" height="44"/>
+                                <rect key="frame" x="297" y="81" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Button" image="image"/>
                                 <connections>
@@ -168,7 +165,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkQ-EZ-nQH">
-                                <rect key="frame" x="110" y="543" width="155" height="50"/>
+                                <rect key="frame" x="110" y="447" width="155" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <color key="backgroundColor" red="0.48627450979999998" green="0.52941176469999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -186,38 +183,29 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfp-0K-r7E">
-                                <rect key="frame" x="74" y="451" width="48" height="44"/>
+                                <rect key="frame" x="74" y="355" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Scan" image="loupe"/>
                                 <connections>
                                     <action selector="OCR:" destination="4Pb-il-VFr" eventType="touchUpInside" id="ZK4-TT-Xz3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รถยนต์" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
-                                <rect key="frame" x="58" y="132" width="259" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8pl-IM-q5i">
-                                <rect key="frame" x="139" y="458" width="153" height="30"/>
+                                <rect key="frame" x="139" y="362" width="153" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="RYI-rG-8mp">
+                                <rect key="frame" x="91" y="0.0" width="192" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="kcf-P4-R9U" secondAttribute="bottom" id="962-da-BIX"/>
-                            <constraint firstItem="kcf-P4-R9U" firstAttribute="top" secondItem="ly0-qB-Oz9" secondAttribute="top" id="Y2T-MU-SF2"/>
-                            <constraint firstItem="kcf-P4-R9U" firstAttribute="leading" secondItem="YwA-Yp-2Te" secondAttribute="leading" id="gCH-RN-36r"/>
-                            <constraint firstItem="kcf-P4-R9U" firstAttribute="trailing" secondItem="YwA-Yp-2Te" secondAttribute="trailing" id="mmb-56-dw6"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YwA-Yp-2Te"/>
                     </view>
-                    <navigationItem key="navigationItem" id="OXk-A5-MEJ"/>
+                    <navigationItem key="navigationItem" title="รถยนต์" id="OXk-A5-MEJ"/>
                     <connections>
                         <outlet property="img" destination="xax-31-YVO" id="fOz-H8-uKr"/>
                         <outlet property="plate" destination="8pl-IM-q5i" id="PGo-zA-lWM"/>
@@ -327,13 +315,31 @@
                     <view key="view" contentMode="scaleToFill" id="sty-IJ-6hS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Onc-zr-gfk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="15G-fB-ZkY">
+                                <rect key="frame" x="54" y="92" width="256" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="motorcycle2" translatesAutoresizingMaskIntoConstraints="NO" id="0Lv-Gc-ONX">
+                                <rect key="frame" x="211" y="532" width="99" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car12" translatesAutoresizingMaskIntoConstraints="NO" id="akT-2E-lcP">
+                                <rect key="frame" x="80" y="524" width="97" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Xfn-Hd-d8E"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2R3-6c-uBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-489" y="127"/>
+            <point key="canvasLocation" x="-410.39999999999998" y="133.5832083958021"/>
         </scene>
         <!--Tab Controller-->
         <scene sceneID="2bT-31-uNR">
@@ -341,9 +347,11 @@
                 <tabBarController storyboardIdentifier="tabCon" automaticallyAdjustsScrollViewInsets="NO" id="EkE-Me-fab" customClass="TabController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="qmi-oH-OmB"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0r4-Hg-F67">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="0r4-Hg-F67">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.48627450980392156" green="0.52941176470588236" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="Gaz-px-YiQ" kind="relationship" relationship="viewControllers" id="LI9-UD-Q3G"/>
@@ -352,31 +360,28 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGC-mH-hhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="374" y="134"/>
         </scene>
-        <!--Fill View Controller-->
+        <!--รถมอเตอร์ไซต์-->
         <scene sceneID="U51-WU-Diw">
             <objects>
                 <viewController id="NG4-Ot-6EX" customClass="FillViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lAM-2y-QS4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sacan1" translatesAutoresizingMaskIntoConstraints="NO" id="zaK-dP-GZB">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrE-k7-8rB">
-                                <rect key="frame" x="30" y="177" width="48" height="44"/>
+                                <rect key="frame" x="30" y="98" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Button" image="photo-camera"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3w-PX-R5A">
-                                <rect key="frame" x="49" y="229" width="277" height="204"/>
+                                <rect key="frame" x="49" y="150" width="277" height="204"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc9-II-1g2">
-                                <rect key="frame" x="297" y="177" width="48" height="44"/>
+                                <rect key="frame" x="297" y="98" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Button" image="image"/>
                                 <connections>
@@ -384,7 +389,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMn-UV-eLO">
-                                <rect key="frame" x="110" y="543" width="155" height="50"/>
+                                <rect key="frame" x="110" y="464" width="155" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <color key="backgroundColor" red="0.48627450979999998" green="0.52941176469999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -402,38 +407,29 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLE-yU-zJB">
-                                <rect key="frame" x="74" y="451" width="48" height="44"/>
+                                <rect key="frame" x="74" y="372" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Scan" image="loupe"/>
                                 <connections>
                                     <action selector="OCR:" destination="NG4-Ot-6EX" eventType="touchUpInside" id="A2p-z5-GOW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รถมอเตอร์ไซต์" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbZ-a5-XDo">
-                                <rect key="frame" x="58" y="132" width="259" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yM-2r-wEe">
-                                <rect key="frame" x="139" y="458" width="153" height="30"/>
+                                <rect key="frame" x="139" y="379" width="153" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="motorcycle1" translatesAutoresizingMaskIntoConstraints="NO" id="wAY-Be-CBk">
+                                <rect key="frame" x="91" y="0.0" width="192" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="zaK-dP-GZB" firstAttribute="trailing" secondItem="AIO-kk-2pn" secondAttribute="trailing" id="0Pl-lU-3Ny"/>
-                            <constraint firstAttribute="bottom" secondItem="zaK-dP-GZB" secondAttribute="bottom" id="1dU-FC-4dm"/>
-                            <constraint firstItem="zaK-dP-GZB" firstAttribute="leading" secondItem="AIO-kk-2pn" secondAttribute="leading" id="FU5-Ps-CJI"/>
-                            <constraint firstItem="zaK-dP-GZB" firstAttribute="top" secondItem="lAM-2y-QS4" secondAttribute="top" id="nK5-cr-23T"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="AIO-kk-2pn"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vyK-UQ-MiA"/>
+                    <navigationItem key="navigationItem" title="รถมอเตอร์ไซต์" id="vyK-UQ-MiA"/>
                     <connections>
                         <outlet property="img" destination="y3w-PX-R5A" id="bdw-j2-Dom"/>
                         <outlet property="plate" destination="6yM-2r-wEe" id="grI-GT-218"/>
@@ -449,9 +445,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gaz-px-YiQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="รถยนต์" image="car copy 3" id="amk-0r-ZNk"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8sR-9z-Pje">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="8sR-9z-Pje">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.48627450980392156" green="0.52941176470588236" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -462,15 +459,17 @@
             </objects>
             <point key="canvasLocation" x="1357.5999999999999" y="133.5832083958021"/>
         </scene>
-        <!--สแกน-->
+        <!--รถมอเตอร์ไซต์-->
         <scene sceneID="LJ4-Cs-gKX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="51w-Xg-UKm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="สแกน" image="motorcycle" id="pTu-KO-gKT"/>
+                    <tabBarItem key="tabBarItem" title="รถมอเตอร์ไซต์" image="motorcycle" id="pTu-KO-gKT"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uzD-ow-o73">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="uzD-ow-o73">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.1339293044" green="1" blue="0.26686511130000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -501,8 +500,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="123" width="233" height="233"/>
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
+        <image name="bg" width="375" height="667"/>
+        <image name="car" width="256" height="256"/>
         <image name="car copy 3" width="32" height="32"/>
+        <image name="car12" width="256" height="256"/>
         <image name="faculty-shield" width="128" height="128"/>
         <image name="iPhone 6-7-8 – 1" width="375" height="667"/>
         <image name="id-card" width="128" height="128"/>
@@ -511,10 +514,11 @@
         <image name="login" width="512" height="512"/>
         <image name="loupe" width="512" height="512"/>
         <image name="motorcycle" width="32" height="32"/>
+        <image name="motorcycle1" width="256" height="256"/>
+        <image name="motorcycle2" width="256" height="256"/>
         <image name="name" width="128" height="128"/>
         <image name="phone-call" width="512" height="512"/>
         <image name="photo-camera" width="512" height="512"/>
-        <image name="sacan1" width="375" height="667"/>
         <image name="users" width="128" height="128"/>
         <image name="white" width="1920" height="1080"/>
     </resources>

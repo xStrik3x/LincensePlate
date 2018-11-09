@@ -10,86 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--กรอก-->
-        <scene sceneID="4Lg-um-4yG">
-            <objects>
-                <viewController storyboardIdentifier="pdView" id="cgq-xn-iom" customClass="FillViewController" customModule="lincenseplate" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dij-Jp-GnJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fillin" translatesAutoresizingMaskIntoConstraints="NO" id="i3E-3S-sy6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UsX-Ul-EjW">
-                                <rect key="frame" x="64" y="350" width="246" height="40"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5Z-oO-axS">
-                                <rect key="frame" x="112" y="424" width="155" height="50"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.48627450980392156" green="0.52941176470588236" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="ตกลง">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="fillBtn:" destination="cgq-xn-iom" eventType="touchUpInside" id="yOj-4S-whU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnt-sp-KGn" customClass="DLRadioButton">
-                                <rect key="frame" x="180" y="284" width="150" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="รถจักยานยนต์">
-                                    <color key="titleColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMF-Hf-DpU" customClass="DLRadioButton">
-                                <rect key="frame" x="54" y="284" width="100" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="รถยนต์">
-                                    <color key="titleColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <outletCollection property="otherButtons" destination="gnt-sp-KGn" id="DtE-BQ-Olb"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="กรอกทะเบียนรถ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvP-Bo-heR">
-                                <rect key="frame" x="55" y="209" width="265" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="i3E-3S-sy6" firstAttribute="top" secondItem="dij-Jp-GnJ" secondAttribute="top" id="787-t8-U2F"/>
-                            <constraint firstAttribute="bottom" secondItem="i3E-3S-sy6" secondAttribute="bottom" id="H0Q-Vw-2sj"/>
-                            <constraint firstItem="i3E-3S-sy6" firstAttribute="leading" secondItem="R9X-Fv-Z33" secondAttribute="leading" id="Urs-Jd-oDt"/>
-                            <constraint firstItem="i3E-3S-sy6" firstAttribute="trailing" secondItem="R9X-Fv-Z33" secondAttribute="trailing" id="upe-k8-cEe"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="R9X-Fv-Z33"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="กรอก" image="license-plate (2)" id="9We-f3-MAK"/>
-                    <navigationItem key="navigationItem" title="กรอก" id="DOY-FH-GqZ"/>
-                    <connections>
-                        <outlet property="fillTField" destination="UsX-Ul-EjW" id="GnX-nl-qea"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OU9-x1-IJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="912.79999999999995" y="895.50224887556226"/>
-        </scene>
         <!--Retrieve View Controller-->
         <scene sceneID="Ddz-zO-dON">
             <objects>
@@ -110,39 +30,39 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="name" translatesAutoresizingMaskIntoConstraints="NO" id="BeS-jt-l7z">
-                                <rect key="frame" x="91" y="408" width="50" height="50"/>
+                                <rect key="frame" x="91" y="380" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYS-vQ-H3J">
-                                <rect key="frame" x="187" y="492" width="125" height="21"/>
+                                <rect key="frame" x="187" y="464" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHY-pK-R1r">
-                                <rect key="frame" x="187" y="287" width="125" height="21"/>
+                                <rect key="frame" x="187" y="259" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sh8-bi-uNM">
-                                <rect key="frame" x="187" y="355" width="125" height="21"/>
+                                <rect key="frame" x="187" y="327" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4o-Gf-UFH">
-                                <rect key="frame" x="187" y="423" width="125" height="21"/>
+                                <rect key="frame" x="187" y="395" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2u-zh-hsh">
-                                <rect key="frame" x="187" y="214" width="139" height="21"/>
+                                <rect key="frame" x="187" y="186" width="139" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -167,34 +87,30 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNB-EK-GHn">
-                                <rect key="frame" x="187" y="562" width="125" height="21"/>
+                                <rect key="frame" x="187" y="534" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sju-Dn-jX5">
-                                <rect key="frame" x="133" y="93" width="108" height="98"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faculty-shield" translatesAutoresizingMaskIntoConstraints="NO" id="nXe-mQ-mxg">
-                                <rect key="frame" x="91" y="477" width="50" height="50"/>
+                                <rect key="frame" x="91" y="449" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone-call" translatesAutoresizingMaskIntoConstraints="NO" id="qiO-sv-YDy">
-                                <rect key="frame" x="91" y="199" width="50" height="50"/>
+                                <rect key="frame" x="91" y="171" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="identification" translatesAutoresizingMaskIntoConstraints="NO" id="bS2-wB-kHY">
-                                <rect key="frame" x="91" y="340" width="50" height="50"/>
+                                <rect key="frame" x="91" y="312" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="id-card" translatesAutoresizingMaskIntoConstraints="NO" id="cFF-yZ-qGG">
-                                <rect key="frame" x="91" y="272" width="50" height="50"/>
+                                <rect key="frame" x="91" y="244" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="users" translatesAutoresizingMaskIntoConstraints="NO" id="l0Y-s0-NjN">
-                                <rect key="frame" x="91" y="547" width="50" height="50"/>
+                                <rect key="frame" x="91" y="519" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ข้อมูลเจ้าของรถ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehI-NU-SVZ">
@@ -221,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="1792.8" y="895.50224887556226"/>
         </scene>
-        <!--สแกน-->
+        <!--รถยนต์-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
                 <viewController id="4Pb-il-VFr" customClass="ScanViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
@@ -264,6 +180,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Okbtn:" destination="4Pb-il-VFr" eventType="touchUpInside" id="Sqn-Cy-kfQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfp-0K-r7E">
                                 <rect key="frame" x="74" y="451" width="48" height="44"/>
@@ -273,7 +192,7 @@
                                     <action selector="OCR:" destination="4Pb-il-VFr" eventType="touchUpInside" id="ZK4-TT-Xz3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สแกนทะเบียนรถ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รถยนต์" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-mD-3Kc">
                                 <rect key="frame" x="58" y="132" width="259" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
@@ -297,7 +216,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YwA-Yp-2Te"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="สแกน" image="barcode" id="amk-0r-ZNk"/>
+                    <tabBarItem key="tabBarItem" title="รถยนต์" image="car copy 3" id="amk-0r-ZNk"/>
                     <navigationItem key="navigationItem" id="OXk-A5-MEJ"/>
                     <connections>
                         <outlet property="img" destination="xax-31-YVO" id="fOz-H8-uKr"/>
@@ -399,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TNF-B5-pcV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-706.39999999999998" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-1130" y="134"/>
         </scene>
         <!--Tab Controller-->
         <scene sceneID="2bT-31-uNR">
@@ -413,26 +332,115 @@
                     </tabBar>
                     <connections>
                         <segue destination="4Pb-il-VFr" kind="relationship" relationship="viewControllers" id="LI9-UD-Q3G"/>
-                        <segue destination="cgq-xn-iom" kind="relationship" relationship="viewControllers" id="9sq-AT-7D9"/>
+                        <segue destination="NG4-Ot-6EX" kind="relationship" relationship="viewControllers" id="4b6-VY-LB5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGC-mH-hhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
+        <!--สแกน-->
+        <scene sceneID="U51-WU-Diw">
+            <objects>
+                <viewController id="NG4-Ot-6EX" customClass="FillViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lAM-2y-QS4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sacan1" translatesAutoresizingMaskIntoConstraints="NO" id="zaK-dP-GZB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrE-k7-8rB">
+                                <rect key="frame" x="30" y="177" width="48" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <state key="normal" title="Button" image="photo-camera"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3w-PX-R5A">
+                                <rect key="frame" x="49" y="229" width="277" height="204"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc9-II-1g2">
+                                <rect key="frame" x="297" y="177" width="48" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <state key="normal" title="Button" image="image"/>
+                                <connections>
+                                    <action selector="chooseBtn:" destination="NG4-Ot-6EX" eventType="touchUpInside" id="iCD-td-BiO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMn-UV-eLO">
+                                <rect key="frame" x="110" y="543" width="155" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <color key="backgroundColor" red="0.48627450979999998" green="0.52941176469999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="ตกลง">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Okbtn:" destination="NG4-Ot-6EX" eventType="touchUpInside" id="8bD-K0-90F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLE-yU-zJB">
+                                <rect key="frame" x="74" y="451" width="48" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <state key="normal" title="Scan" image="loupe"/>
+                                <connections>
+                                    <action selector="OCR:" destination="NG4-Ot-6EX" eventType="touchUpInside" id="A2p-z5-GOW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รถมอเตอร์ไซต์" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbZ-a5-XDo">
+                                <rect key="frame" x="58" y="132" width="259" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.51764705879999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yM-2r-wEe">
+                                <rect key="frame" x="139" y="458" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zaK-dP-GZB" firstAttribute="trailing" secondItem="AIO-kk-2pn" secondAttribute="trailing" id="0Pl-lU-3Ny"/>
+                            <constraint firstAttribute="bottom" secondItem="zaK-dP-GZB" secondAttribute="bottom" id="1dU-FC-4dm"/>
+                            <constraint firstItem="zaK-dP-GZB" firstAttribute="leading" secondItem="AIO-kk-2pn" secondAttribute="leading" id="FU5-Ps-CJI"/>
+                            <constraint firstItem="zaK-dP-GZB" firstAttribute="top" secondItem="lAM-2y-QS4" secondAttribute="top" id="nK5-cr-23T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AIO-kk-2pn"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="สแกน" image="motorcycle" id="pTu-KO-gKT"/>
+                    <navigationItem key="navigationItem" id="vyK-UQ-MiA"/>
+                    <connections>
+                        <outlet property="img" destination="y3w-PX-R5A" id="bdw-j2-Dom"/>
+                        <outlet property="plate" destination="6yM-2r-wEe" id="grI-GT-218"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="96R-Ch-03i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="915"/>
+        </scene>
     </scenes>
     <resources>
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
-        <image name="barcode" width="32" height="32"/>
+        <image name="car copy 3" width="32" height="32"/>
         <image name="faculty-shield" width="128" height="128"/>
-        <image name="fillin" width="375" height="667"/>
         <image name="iPhone 6-7-8 – 1" width="375" height="667"/>
         <image name="id-card" width="128" height="128"/>
         <image name="identification" width="128" height="128"/>
         <image name="image" width="512" height="512"/>
-        <image name="license-plate (2)" width="32" height="32"/>
         <image name="login" width="512" height="512"/>
         <image name="loupe" width="512" height="512"/>
+        <image name="motorcycle" width="32" height="32"/>
         <image name="name" width="128" height="128"/>
         <image name="phone-call" width="512" height="512"/>
         <image name="photo-camera" width="512" height="512"/>

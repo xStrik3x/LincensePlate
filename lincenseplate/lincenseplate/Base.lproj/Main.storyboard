@@ -114,7 +114,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ข้อมูลเจ้าของรถ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehI-NU-SVZ">
-                                <rect key="frame" x="55" y="41" width="271" height="44"/>
+                                <rect key="frame" x="55" y="74" width="271" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -124,6 +124,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1jU-Gm-eH3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZgS-Ct-R8c"/>
                     <connections>
                         <outlet property="lbldepart" destination="qYS-vQ-H3J" id="1k7-6x-W29"/>
                         <outlet property="lblfname" destination="Sh8-bi-uNM" id="cVi-nn-MrW"/>
@@ -135,9 +136,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUv-A8-Nnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1792.8" y="895.50224887556226"/>
+            <point key="canvasLocation" x="3566" y="914"/>
         </scene>
-        <!--รถยนต์-->
+        <!--Scan View Controller-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
                 <viewController id="4Pb-il-VFr" customClass="ScanViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
@@ -216,7 +217,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YwA-Yp-2Te"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="รถยนต์" image="car copy 3" id="amk-0r-ZNk"/>
                     <navigationItem key="navigationItem" id="OXk-A5-MEJ"/>
                     <connections>
                         <outlet property="img" destination="xax-31-YVO" id="fOz-H8-uKr"/>
@@ -225,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAn-dN-uTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1304.8" y="138.98050974512745"/>
+            <point key="canvasLocation" x="2296.8000000000002" y="133.5832083958021"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xDW-U0-OOe">
@@ -320,6 +320,21 @@
             </objects>
             <point key="canvasLocation" x="-1130" y="134"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gGt-w5-oNk">
+            <objects>
+                <viewController id="rOB-mh-N6f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sty-IJ-6hS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Xfn-Hd-d8E"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2R3-6c-uBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-489" y="127"/>
+        </scene>
         <!--Tab Controller-->
         <scene sceneID="2bT-31-uNR">
             <objects>
@@ -331,15 +346,15 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </tabBar>
                     <connections>
-                        <segue destination="4Pb-il-VFr" kind="relationship" relationship="viewControllers" id="LI9-UD-Q3G"/>
-                        <segue destination="NG4-Ot-6EX" kind="relationship" relationship="viewControllers" id="4b6-VY-LB5"/>
+                        <segue destination="Gaz-px-YiQ" kind="relationship" relationship="viewControllers" id="LI9-UD-Q3G"/>
+                        <segue destination="51w-Xg-UKm" kind="relationship" relationship="viewControllers" id="4b6-VY-LB5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGC-mH-hhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--สแกน-->
+        <!--Fill View Controller-->
         <scene sceneID="U51-WU-Diw">
             <objects>
                 <viewController id="NG4-Ot-6EX" customClass="FillViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
@@ -418,7 +433,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AIO-kk-2pn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="สแกน" image="motorcycle" id="pTu-KO-gKT"/>
                     <navigationItem key="navigationItem" id="vyK-UQ-MiA"/>
                     <connections>
                         <outlet property="img" destination="y3w-PX-R5A" id="bdw-j2-Dom"/>
@@ -427,7 +441,63 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="96R-Ch-03i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="770" y="915"/>
+            <point key="canvasLocation" x="1708" y="914.392803598201"/>
+        </scene>
+        <!--รถยนต์-->
+        <scene sceneID="Oip-kZ-TUT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gaz-px-YiQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="รถยนต์" image="car copy 3" id="amk-0r-ZNk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8sR-9z-Pje">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4Pb-il-VFr" kind="relationship" relationship="rootViewController" id="iiT-pv-Jj1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IR2-fE-u7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357.5999999999999" y="133.5832083958021"/>
+        </scene>
+        <!--สแกน-->
+        <scene sceneID="LJ4-Cs-gKX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="51w-Xg-UKm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="สแกน" image="motorcycle" id="pTu-KO-gKT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uzD-ow-o73">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NG4-Ot-6EX" kind="relationship" relationship="rootViewController" id="nKh-mQ-awX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eE3-GM-pJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.79999999999995" y="914.392803598201"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sRc-Ev-OQP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cwJ-9f-a0w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KkJ-vH-GoZ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gZq-fb-Hsg" kind="relationship" relationship="rootViewController" id="lYF-j2-W3A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3u8-D9-jAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2759" y="914"/>
         </scene>
     </scenes>
     <resources>

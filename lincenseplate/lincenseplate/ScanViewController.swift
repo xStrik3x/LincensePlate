@@ -14,14 +14,15 @@ class ScanViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     
     @IBOutlet weak var img: UIImageView!
-    @IBOutlet weak var Plate: UILabel!
+    
+    @IBOutlet weak var plate: UITextField!
     @IBAction func OCR(_ sender: Any) {
         
         if (img.image != nil){
             let swiftOCRIns = SwiftOCR()
             swiftOCRIns.recognize(img.image!) { recognizedString in
                 DispatchQueue.main.async {
-                    self.Plate.text = recognizedString
+                    self.plate.text = recognizedString
                 }
                 print(recognizedString)
                 

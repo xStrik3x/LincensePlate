@@ -11,7 +11,7 @@
     import Firebase
     import FirebaseFirestore
     
-    class FillViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    class MotorViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         
         
         @IBOutlet weak var img: UIImageView!
@@ -73,7 +73,8 @@
                         
                         if document.exists{
                             let retriVC = self.storyboard?.instantiateViewController(withIdentifier: "retri") as! RetrieveViewController
-                            retriVC.data1 = lp
+                            retriVC.data = lp
+                            retriVC.type = "รถจักยานยนต์"
                             DispatchQueue.main.async (execute: {
                                 self.present(retriVC, animated: true, completion: nil)
                             })

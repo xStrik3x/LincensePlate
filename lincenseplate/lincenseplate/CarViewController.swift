@@ -11,7 +11,7 @@ import SwiftOCR
 import Firebase
 import FirebaseFirestore
 
-class ScanViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class CarViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     
     @IBOutlet weak var img: UIImageView!
@@ -74,6 +74,7 @@ class ScanViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                     if document.exists{
                         let retriVC = self.storyboard?.instantiateViewController(withIdentifier: "retri") as! RetrieveViewController
                         retriVC.data = lp
+                        retriVC.type = "รถยนต์"
                         DispatchQueue.main.async (execute: {
                             self.present(retriVC, animated: true, completion: nil)
                         })

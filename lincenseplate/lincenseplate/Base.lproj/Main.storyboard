@@ -134,7 +134,7 @@
         <!--รถยนต์-->
         <scene sceneID="Kjw-xW-zpa">
             <objects>
-                <viewController id="4Pb-il-VFr" customClass="ScanViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Pb-il-VFr" customClass="CarViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ly0-qB-Oz9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -366,7 +366,7 @@
         <!--รถมอเตอร์ไซต์-->
         <scene sceneID="U51-WU-Diw">
             <objects>
-                <viewController id="NG4-Ot-6EX" customClass="FillViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NG4-Ot-6EX" customClass="MotorViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lAM-2y-QS4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -453,21 +453,21 @@
         <image name="123" width="233" height="233"/>
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
         <image name="bg" width="375" height="667"/>
-        <image name="car copy 3" width="32" height="32"/>
-        <image name="car12" width="256" height="256"/>
-        <image name="faculty-shield" width="128" height="128"/>
-        <image name="id-card" width="128" height="128"/>
-        <image name="identification" width="128" height="128"/>
-        <image name="image" width="512" height="512"/>
-        <image name="login" width="512" height="512"/>
-        <image name="loupe" width="512" height="512"/>
-        <image name="motorcycle" width="32" height="32"/>
-        <image name="motorcycle2" width="256" height="256"/>
-        <image name="name" width="128" height="128"/>
-        <image name="phone-call" width="512" height="512"/>
-        <image name="photo-camera" width="512" height="512"/>
+        <image name="car copy 3" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="car12" width="204.80000305175781" height="204.80000305175781"/>
+        <image name="faculty-shield" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="id-card" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="identification" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="image" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="login" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="loupe" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="motorcycle" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="motorcycle2" width="204.80000305175781" height="204.80000305175781"/>
+        <image name="name" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="phone-call" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="photo-camera" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sacan1" width="375" height="667"/>
-        <image name="users" width="128" height="128"/>
+        <image name="users" width="102.40000152587891" height="102.40000152587891"/>
         <image name="white" width="1920" height="1080"/>
     </resources>
 </document>

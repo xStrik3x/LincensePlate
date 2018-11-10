@@ -76,7 +76,7 @@ class CarViewController: UIViewController, UIImagePickerControllerDelegate, UINa
                         retriVC.data = lp
                         retriVC.type = "รถยนต์"
                         DispatchQueue.main.async (execute: {
-                            self.present(retriVC, animated: true, completion: nil)
+                            self.navigationController?.pushViewController(retriVC, animated: true)
                         })
                     } else {
                         let alert = UIAlertController(title: "ไม่มีเลขทะเบียนในระบบ", message: nil, preferredStyle: .alert)

@@ -13,7 +13,7 @@
         <!--Retrieve View Controller-->
         <scene sceneID="Ddz-zO-dON">
             <objects>
-                <viewController storyboardIdentifier="retri" id="gZq-fb-Hsg" customClass="RetrieveViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="retri" hidesBottomBarWhenPushed="YES" id="gZq-fb-Hsg" customClass="RetrieveViewController" customModule="lincenseplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8uf-a9-Zkm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUv-A8-Nnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2276" y="913"/>
+            <point key="canvasLocation" x="3215.1999999999998" y="912.5937031484259"/>
         </scene>
         <!--รถยนต์-->
         <scene sceneID="Kjw-xW-zpa">
@@ -205,7 +205,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YwA-Yp-2Te"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="car copy 3" id="5DY-aD-JMF"/>
                     <navigationItem key="navigationItem" title="รถยนต์" id="OXk-A5-MEJ"/>
                     <connections>
                         <outlet property="img" destination="xax-31-YVO" id="fOz-H8-uKr"/>
@@ -214,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAn-dN-uTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672.8" y="123.68815592203899"/>
+            <point key="canvasLocation" x="2612" y="123.68815592203899"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xDW-U0-OOe">
@@ -355,8 +354,8 @@
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="4Pb-il-VFr" kind="relationship" relationship="viewControllers" id="Qos-hi-kCc"/>
-                        <segue destination="NG4-Ot-6EX" kind="relationship" relationship="viewControllers" id="Eh4-bS-P59"/>
+                        <segue destination="ixu-c3-L1F" kind="relationship" relationship="viewControllers" id="Qos-hi-kCc"/>
+                        <segue destination="DGe-PN-fal" kind="relationship" relationship="viewControllers" id="Eh4-bS-P59"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGC-mH-hhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -437,7 +436,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AIO-kk-2pn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="motorcycle" id="trv-tD-4dl"/>
                     <navigationItem key="navigationItem" title="รถมอเตอร์ไซต์" id="vyK-UQ-MiA"/>
                     <connections>
                         <outlet property="img" destination="y3w-PX-R5A" id="bdw-j2-Dom"/>
@@ -445,6 +443,44 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="96R-Ch-03i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1820" y="912.5937031484259"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ckD-Rm-aPF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ixu-c3-L1F" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="car copy 3" id="5DY-aD-JMF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yI0-jZ-cm5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4Pb-il-VFr" kind="relationship" relationship="rootViewController" id="B1x-gk-pvh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0zq-SF-3FC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.8" y="123.68815592203899"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="1jn-B9-Hdt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DGe-PN-fal" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="motorcycle" id="trv-tD-4dl"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dzU-Jb-oVN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NG4-Ot-6EX" kind="relationship" relationship="rootViewController" id="5ps-iD-OJg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="we3-R9-u6l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="880.79999999999995" y="912.5937031484259"/>
         </scene>

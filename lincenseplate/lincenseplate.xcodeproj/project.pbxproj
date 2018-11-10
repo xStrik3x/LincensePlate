@@ -150,8 +150,8 @@
 				3FF33EC6214660A400F7A034 /* Main.storyboard */,
 				3FF33EC4214660A400F7A034 /* ViewController.swift */,
 				3F68DA3321621ADA0020EEE9 /* TabController.swift */,
-				3F75BCD4215F554400DAF13B /* MotorViewController.swift */,
 				3FF194F62164A90100C86505 /* CarViewController.swift */,
+				3F75BCD4215F554400DAF13B /* MotorViewController.swift */,
 				3FE69488215F649300510C89 /* RetrieveViewController.swift */,
 			);
 			path = lincenseplate;

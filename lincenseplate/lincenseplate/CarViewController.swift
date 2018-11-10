@@ -15,8 +15,24 @@ class CarViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     
     
     @IBOutlet weak var img: UIImageView!
-    
     @IBOutlet weak var plate: UITextField!
+    
+    @IBAction func CameraBtn(_ sender: Any) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera){
+            var imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = .camera;
+            imagePicker.allowsEditing = false
+            self.present(imagePicker, animated: true, completion: nil)
+        } else {
+            let alert = UIAlertController(title: "โทรศัพท์ของคุณไม่สามารถใช้กล้องได้", message: nil, preferredStyle: .alert)
+            let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(okButton)
+            self.present(alert,animated: true,completion: nil)
+        }
+    }
+    
+    
     @IBAction func OCR(_ sender: Any) {
         
         if (img.image != nil){

@@ -129,6 +129,9 @@
                                 <rect key="frame" x="30" y="130" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Button" image="photo-camera"/>
+                                <connections>
+                                    <action selector="CameraBtn:" destination="4Pb-il-VFr" eventType="touchUpInside" id="vNm-4P-dfW"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xax-31-YVO">
                                 <rect key="frame" x="49" y="186" width="277" height="204"/>
@@ -355,6 +358,9 @@
                                 <rect key="frame" x="30" y="134" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <state key="normal" title="Button" image="photo-camera"/>
+                                <connections>
+                                    <action selector="CameraBtn:" destination="NG4-Ot-6EX" eventType="touchUpInside" id="s1G-UY-rlh"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3w-PX-R5A">
                                 <rect key="frame" x="49" y="186" width="277" height="204"/>
@@ -463,21 +469,21 @@
         <image name="123" width="233" height="233"/>
         <image name="6e319478a0256a787d736b31ed28ed02" width="564" height="1003"/>
         <image name="bg" width="375" height="667"/>
-        <image name="car copy 3" width="32" height="32"/>
-        <image name="car12" width="256" height="256"/>
-        <image name="faculty-shield" width="128" height="128"/>
-        <image name="id-card" width="128" height="128"/>
-        <image name="identification" width="128" height="128"/>
-        <image name="image" width="512" height="512"/>
-        <image name="login" width="512" height="512"/>
-        <image name="loupe" width="512" height="512"/>
-        <image name="motorcycle" width="32" height="32"/>
-        <image name="motorcycle2" width="256" height="256"/>
-        <image name="name" width="128" height="128"/>
-        <image name="phone-call" width="512" height="512"/>
-        <image name="photo-camera" width="512" height="512"/>
+        <image name="car copy 3" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="car12" width="204.80000305175781" height="204.80000305175781"/>
+        <image name="faculty-shield" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="id-card" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="identification" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="image" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="login" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="loupe" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="motorcycle" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="motorcycle2" width="204.80000305175781" height="204.80000305175781"/>
+        <image name="name" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="phone-call" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="photo-camera" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sacan1" width="375" height="667"/>
-        <image name="users" width="128" height="128"/>
+        <image name="users" width="102.40000152587891" height="102.40000152587891"/>
         <image name="white" width="1920" height="1080"/>
     </resources>
 </document>

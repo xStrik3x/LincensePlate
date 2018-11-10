@@ -10,10 +10,15 @@ import UIKit
 
 class TabController: UITabBarController {
 
+    var tabbaritem = UITabBarItem()
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.white], for: .selected)
+        
+         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.gray], for: .normal)
+        
     }
     
 

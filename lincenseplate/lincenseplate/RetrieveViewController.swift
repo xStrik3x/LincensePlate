@@ -28,7 +28,7 @@ class RetrieveViewController: UIViewController {
         
         //firestore path
         let docRef = Firestore.firestore().collection("รถยนต์").document(data)
-        
+       
         
         //get data
         docRef.getDocument { (document, err) in
@@ -51,8 +51,10 @@ class RetrieveViewController: UIViewController {
                 print("Document does not exist")
             }
         }
+       
         
-    }
+        
+    
     
 
     /*
@@ -65,4 +67,5 @@ class RetrieveViewController: UIViewController {
     }
     */
 
+  }
 }

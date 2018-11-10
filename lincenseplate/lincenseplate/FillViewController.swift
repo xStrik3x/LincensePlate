@@ -1,5 +1,3 @@
-
-
     //
     //  ScanViewController.swift
     //  lincenseplate
@@ -68,14 +66,14 @@
         @IBAction func Okbtn(_ sender: Any) {
             if plate.text != ""{
                 guard let lp = plate.text else { return }
-                let typeRef = Firestore.firestore().collection("รถยนต์")
+                let typeRef = Firestore.firestore().collection("รถจักยานยนต์")
                 let docRef = typeRef.document(lp)
                 docRef.getDocument{ (document, err) in
                     if let document = document {
                         
                         if document.exists{
                             let retriVC = self.storyboard?.instantiateViewController(withIdentifier: "retri") as! RetrieveViewController
-                            retriVC.data = lp
+                            retriVC.data1 = lp
                             DispatchQueue.main.async (execute: {
                                 self.present(retriVC, animated: true, completion: nil)
                             })

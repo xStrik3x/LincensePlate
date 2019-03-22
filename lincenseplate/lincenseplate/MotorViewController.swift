@@ -7,9 +7,9 @@
     //
     
     import UIKit
-    import SwiftOCR
     import Firebase
     import FirebaseFirestore
+    import SwiftyTesseract
     
     class MotorViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         
@@ -35,13 +35,14 @@
         @IBAction func OCR(_ sender: Any) {
             
             if (img.image != nil){
-                let swiftOCRIns = SwiftOCR()
-                swiftOCRIns.recognize(img.image!) { recognizedString in
-                    DispatchQueue.main.async {
-                        self.plate.text = recognizedString
-                    }
-                    print(recognizedString)
+                let swiftyTesseract = SwiftyTesseract(languages: [.thai])
+                
+                guard let image = img.image else { return }
+                swiftyTesseract.performOCR(on: image) { recognizedString in
                     
+                guard let recognizedString = recognizedString else { return }
+                self.plate.text = recognizedString.replacingOccurrences(of: " ", with: "")
+                    print(recognizedString)
                 }
             }
             else{
@@ -58,14 +59,14 @@
         @IBAction func chooseBtn(_ sender: Any) {
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
-            imagePicker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+            imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
             imagePicker.allowsEditing = true
             
             self.present(imagePicker, animated: true, completion: nil)
         }
         
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-            img.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+            img.image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
             self.dismiss(animated: true, completion: nil)
         }
         
@@ -73,7 +74,6 @@
         
         override func viewDidLoad() {
             super.viewDidLoad()
-            
             // Do any additional setup after loading the view.
             
         }

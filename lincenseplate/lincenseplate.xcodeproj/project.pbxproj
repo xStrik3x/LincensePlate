@@ -21,6 +21,8 @@
 		3FF33ED8214660A400F7A034 /* lincenseplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33ED7214660A400F7A034 /* lincenseplateTests.swift */; };
 		3FF33EE3214660A400F7A034 /* lincenseplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33EE2214660A400F7A034 /* lincenseplateUITests.swift */; };
 		A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */; };
+		E05CCB902244D6BF0067C907 /* SwiftyTesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05CCB8F2244D6BF0067C907 /* SwiftyTesseract.framework */; };
+		E063E7882244E52300E07857 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = E063E7872244E52300E07857 /* tessdata */; };
 		E5FEBEE84C0BC79B3AF1767D /* Pods_lincenseplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		C4429938216B3E12005F3A7E /* CSPraJad.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CSPraJad.otf; sourceTree = "<group>"; };
 		C4429939216B3E12005F3A7E /* CSPraJad-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CSPraJad-Italic.otf"; sourceTree = "<group>"; };
 		C442993A216B3E12005F3A7E /* CSPraJad-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CSPraJad-bold.otf"; sourceTree = "<group>"; };
+		E05CCB8F2244D6BF0067C907 /* SwiftyTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E063E7872244E52300E07857 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		EB91D69B95E2CA437AFE6CAF /* Pods-lincenseplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateTests/Pods-lincenseplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C2DB0012B39FE21E9B5E5E /* Pods-lincenseplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplateUITests/Pods-lincenseplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F58AC6A77F369DBB04FB35F4 /* Pods-lincenseplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lincenseplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05CCB902244D6BF0067C907 /* SwiftyTesseract.framework in Frameworks */,
 				A6A6CD90273043429E7DC55E /* Pods_lincenseplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +158,7 @@
 				3FF194F62164A90100C86505 /* CarViewController.swift */,
 				3F75BCD4215F554400DAF13B /* MotorViewController.swift */,
 				3FE69488215F649300510C89 /* RetrieveViewController.swift */,
+				E063E7872244E52300E07857 /* tessdata */,
 			);
 			path = lincenseplate;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 		BBE2A1B678A599AC8F6B0812 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E05CCB8F2244D6BF0067C907 /* SwiftyTesseract.framework */,
 				7F1695FD3EFC2DA266129FEE /* Pods_lincenseplate.framework */,
 				F5A10D6F0DE7456F306AC256 /* Pods_lincenseplateTests.framework */,
 				BF04C80EC9680C4BCF226C38 /* Pods_lincenseplateUITests.framework */,
@@ -310,6 +317,7 @@
 			files = (
 				3FF33ECD214660A400F7A034 /* LaunchScreen.storyboard in Resources */,
 				3F8375EE2161F7A9002F6B5F /* GoogleService-Info.plist in Resources */,
+				E063E7882244E52300E07857 /* tessdata in Resources */,
 				3FF33ECA214660A400F7A034 /* Assets.xcassets in Resources */,
 				3FF33EC8214660A400F7A034 /* Main.storyboard in Resources */,
 			);
@@ -338,13 +346,12 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
-				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftOCR/SwiftOCR.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
@@ -356,11 +363,10 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOCR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTesseract.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
@@ -371,7 +377,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lincenseplate/Pods-lincenseplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1DF15C1E2E430E75BD78B5DB /* [CP] Check Pods Manifest.lock */ = {
@@ -615,13 +621,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 32J5CJQZD2;
 				INFOPLIST_FILE = lincenseplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -633,12 +639,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 32J5CJQZD2;
 				INFOPLIST_FILE = lincenseplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.lincenseplate1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

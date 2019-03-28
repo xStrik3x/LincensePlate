@@ -76,9 +76,15 @@ class CarViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
         // Do any additional setup after loading the view.
+//        let ciImage = CIImage(image: img.image!)
+//        let blackAndWhiteImage = ciImage!.applyingFilter("CIColorControls", parameters: ["inputSaturation": 0, "inputContrast": 5])
         
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        //grayScale()
     }
     
     
@@ -122,5 +128,27 @@ class CarViewController: UIViewController, UIImagePickerControllerDelegate, UINa
         self.view.endEditing(true)
         return false
     }
+    func grayScale() {
+        let currentCIImage = CIImage(image: img.image!)
+        
+ //       let blackAndWhiteImage = currentCIImage!.applyingFilter("CIColorControls", parameters: ["inputSaturation": 0, "inputContrast": 5])
+
+        let filter = CIFilter(name: "CIColorMonochrome")
+        filter?.setValue(currentCIImage, forKey: "inputImage")
+
+        // set a gray value for the tint color
+        filter?.setValue(CIColor(red: 0.7, green: 0.7, blue: 0.7), forKey: "inputColor")
+
+        filter?.setValue(1.0, forKey: "inputIntensity")
+        guard let outputImage = filter?.outputImage else { return }
+        let context = CIContext()
+
+        if let cgimg = context.createCGImage(outputImage, from: outputImage.extent) {
+            let processedImage = UIImage(cgImage: cgimg)
+            print(processedImage.size)
+            img.image = processedImage
+        }
+    }
+    
     
 }

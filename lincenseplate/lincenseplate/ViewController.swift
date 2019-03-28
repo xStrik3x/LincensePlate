@@ -13,12 +13,14 @@ class ViewController: UIViewController, UITextFieldDelegate{
     @IBOutlet weak var emailtext: UITextField!
     @IBOutlet weak var passtext: UITextField!
     
-
+    @IBOutlet weak var viewbg: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        viewbg.layer.cornerRadius = 20
+        view.layer.masksToBounds = true
         emailtext.delegate = self
         passtext.delegate = self
         
